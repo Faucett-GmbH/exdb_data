@@ -1,11 +1,11 @@
 ---
-uri: barbell_bench_press
+uri: bb_bench_press
 guid: a8e0bf51-8e5e-45fc-b79a-7566fe6f1a85
 image: bb_bench_press.webp
 thumbnail_image: bb_bench_press_250x250.jpg
 translations:
   - name: Barbell Bench Press
-    uri: barbell-bench-press
+    uri: bb-bench-press
     guid: 2c5a3958-e67c-49a2-a418-a8dc20cf03ff
     locale: en
     alternative_names: []
