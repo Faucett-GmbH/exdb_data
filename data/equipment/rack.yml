@@ -1,0 +1,10 @@
+---
+uri: rack
+id: 478b084c-7d0f-4327-8667-b128858a1664
+translations:
+  - name: Rack
+    uri: rack
+    locale: en
+  - name: Langhantel
+    uri: Langhantel
+    locale: de

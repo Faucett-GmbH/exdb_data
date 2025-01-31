@@ -1,0 +1,10 @@
+---
+uri: bench
+id: 478b084c-7d0f-4327-8667-b128858a1664
+translations:
+  - name: Bench
+    uri: bench
+    locale: en
+  - name: Bank
+    uri: bank
+    locale: de
