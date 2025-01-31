@@ -19,10 +19,10 @@
         <Class IRI="#Core"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Equipment"/>
+        <Class IRI="#Exercise"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Exercise"/>
+        <Class IRI="#ExerciseEquipment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Locomotion"/>
@@ -46,10 +46,10 @@
         <Class IRI="#UpperBody"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasEquipment"/>
+        <ObjectProperty IRI="#hasMovementPattern"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#trainsMovementPattern"/>
+        <ObjectProperty IRI="#usesEquipment"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Barbell"/>
@@ -77,6 +77,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#squat-movement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#standing_bb_overhead_press"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#upward-press-movement"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="#guid"/>
@@ -114,15 +120,15 @@
         <Class IRI="#MovementPattern"/>
     </SubClassOf>
     <ClassAssertion>
-        <Class IRI="#Equipment"/>
+        <Class IRI="#ExerciseEquipment"/>
         <NamedIndividual IRI="#Barbell"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Equipment"/>
+        <Class IRI="#ExerciseEquipment"/>
         <NamedIndividual IRI="#Bench"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Equipment"/>
+        <Class IRI="#ExerciseEquipment"/>
         <NamedIndividual IRI="#Rack"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -145,66 +151,102 @@
         <Class IRI="#LowerBody"/>
         <NamedIndividual IRI="#squat-movement"/>
     </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Exercise"/>
+        <NamedIndividual IRI="#standing_bb_overhead_press"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Push"/>
+        <NamedIndividual IRI="#upward-press-movement"/>
+    </ClassAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasEquipment"/>
-        <NamedIndividual IRI="#bb-bench-press"/>
-        <NamedIndividual IRI="#Barbell"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasEquipment"/>
-        <NamedIndividual IRI="#bb-bench-press"/>
-        <NamedIndividual IRI="#Rack"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#trainsMovementPattern"/>
+        <ObjectProperty IRI="#hasMovementPattern"/>
         <NamedIndividual IRI="#bb-bench-press"/>
         <NamedIndividual IRI="#horizontal-press-movement"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasEquipment"/>
-        <NamedIndividual IRI="#deadlift"/>
+        <ObjectProperty IRI="#usesEquipment"/>
+        <NamedIndividual IRI="#bb-bench-press"/>
         <NamedIndividual IRI="#Barbell"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#trainsMovementPattern"/>
+        <ObjectProperty IRI="#usesEquipment"/>
+        <NamedIndividual IRI="#bb-bench-press"/>
+        <NamedIndividual IRI="#Bench"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usesEquipment"/>
+        <NamedIndividual IRI="#bb-bench-press"/>
+        <NamedIndividual IRI="#Rack"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovementPattern"/>
         <NamedIndividual IRI="#deadlift"/>
         <NamedIndividual IRI="#hinge-movement"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasEquipment"/>
+        <ObjectProperty IRI="#usesEquipment"/>
+        <NamedIndividual IRI="#deadlift"/>
+        <NamedIndividual IRI="#Barbell"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovementPattern"/>
+        <NamedIndividual IRI="#high-bar-squat"/>
+        <NamedIndividual IRI="#squat-movement"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usesEquipment"/>
         <NamedIndividual IRI="#high-bar-squat"/>
         <NamedIndividual IRI="#Barbell"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasEquipment"/>
+        <ObjectProperty IRI="#usesEquipment"/>
         <NamedIndividual IRI="#high-bar-squat"/>
         <NamedIndividual IRI="#Rack"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#trainsMovementPattern"/>
-        <NamedIndividual IRI="#high-bar-squat"/>
-        <NamedIndividual IRI="#squat-movement"/>
+        <ObjectProperty IRI="#hasMovementPattern"/>
+        <NamedIndividual IRI="#standing_bb_overhead_press"/>
+        <NamedIndividual IRI="#upward-press-movement"/>
     </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usesEquipment"/>
+        <NamedIndividual IRI="#standing_bb_overhead_press"/>
+        <NamedIndividual IRI="#Barbell"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usesEquipment"/>
+        <NamedIndividual IRI="#standing_bb_overhead_press"/>
+        <NamedIndividual IRI="#Rack"/>
+    </ObjectPropertyAssertion>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#usesEquipment"/>
+    </AsymmetricObjectProperty>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasEquipment"/>
+        <ObjectProperty IRI="#hasMovementPattern"/>
         <Class IRI="#Exercise"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#trainsMovementPattern"/>
+        <ObjectProperty IRI="#usesEquipment"/>
         <Class IRI="#Exercise"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasEquipment"/>
-        <Class IRI="#Equipment"/>
+        <ObjectProperty IRI="#hasMovementPattern"/>
+        <Class IRI="#MovementPattern"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#trainsMovementPattern"/>
-        <Class IRI="#MovementPattern"/>
+        <ObjectProperty IRI="#usesEquipment"/>
+        <Class IRI="#ExerciseEquipment"/>
     </ObjectPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#guid"/>
         <IRI>#Barbell</IRI>
         <Literal>2a24ffe6-c7fd-49ca-a724-670e1bad96f1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#guid"/>
+        <IRI>#Bench</IRI>
+        <Literal>478b084c-7d0f-4327-8667-b128858a1664</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#guid"/>
@@ -225,6 +267,11 @@
         <AnnotationProperty IRI="#guid"/>
         <IRI>#high-bar-squat</IRI>
         <Literal>0258b3f2-0e93-445e-85fc-6bc545006d29</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#guid"/>
+        <IRI>#standing_bb_overhead_press</IRI>
+        <Literal>20c458cc-2660-4fee-a208-01662762bdaf</Literal>
     </AnnotationAssertion>
 </Ontology>
 
