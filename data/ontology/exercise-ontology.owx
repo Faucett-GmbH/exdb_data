@@ -145,6 +145,9 @@
         <NamedIndividual IRI="#Rack"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#adductor-magnus"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#bb-bench-press"/>
     </Declaration>
     <Declaration>
@@ -155,6 +158,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#deltoid-anterior"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gluteus-maximus"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#high-bar-squat"/>
@@ -172,6 +178,15 @@
         <NamedIndividual IRI="#pectoralis-minor"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#quadriceps"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rectus-femoris"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#soleus"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#squat-movement"/>
     </Declaration>
     <Declaration>
@@ -182,6 +197,15 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#upward-press-movement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vastus-intermedius"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vastus-lateralis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vastus-medialis"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="#guid"/>
@@ -386,6 +410,10 @@
         <NamedIndividual IRI="#Rack"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#UpperLegs"/>
+        <NamedIndividual IRI="#adductor-magnus"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Exercise"/>
         <NamedIndividual IRI="#bb-bench-press"/>
     </ClassAssertion>
@@ -402,8 +430,16 @@
         <NamedIndividual IRI="#deltoid-anterior"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Glutes"/>
+        <NamedIndividual IRI="#gluteus-maximus"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Exercise"/>
         <NamedIndividual IRI="#high-bar-squat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HipHinge"/>
+        <NamedIndividual IRI="#hinge-movement"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Push"/>
@@ -418,6 +454,18 @@
         <NamedIndividual IRI="#pectoralis-minor"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Quadriceps"/>
+        <NamedIndividual IRI="#quadriceps"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Quadriceps"/>
+        <NamedIndividual IRI="#rectus-femoris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Calves"/>
+        <NamedIndividual IRI="#soleus"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Squat"/>
         <NamedIndividual IRI="#squat-movement"/>
     </ClassAssertion>
@@ -428,6 +476,22 @@
     <ClassAssertion>
         <Class IRI="#Triceps"/>
         <NamedIndividual IRI="#triceps-brachii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Push"/>
+        <NamedIndividual IRI="#upward-press-movement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Quadriceps"/>
+        <NamedIndividual IRI="#vastus-intermedius"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Quadriceps"/>
+        <NamedIndividual IRI="#vastus-lateralis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Quadriceps"/>
+        <NamedIndividual IRI="#vastus-medialis"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasMovementPattern"/>
@@ -468,6 +532,26 @@
         <ObjectProperty IRI="#hasMovementPattern"/>
         <NamedIndividual IRI="#bb-front-squat"/>
         <NamedIndividual IRI="#squat-movement"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSynergist"/>
+        <NamedIndividual IRI="#bb-front-squat"/>
+        <NamedIndividual IRI="#adductor-magnus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSynergist"/>
+        <NamedIndividual IRI="#bb-front-squat"/>
+        <NamedIndividual IRI="#gluteus-maximus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSynergist"/>
+        <NamedIndividual IRI="#bb-front-squat"/>
+        <NamedIndividual IRI="#soleus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTarget"/>
+        <NamedIndividual IRI="#bb-front-squat"/>
+        <NamedIndividual IRI="#quadriceps"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#usesEquipment"/>
