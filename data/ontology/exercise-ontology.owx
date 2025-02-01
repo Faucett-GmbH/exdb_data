@@ -13,10 +13,10 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="#AntiRotational"/>
+        <Class IRI="#AntiRotation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Core"/>
+        <Class IRI="#Complex"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Exercise"/>
@@ -25,10 +25,16 @@
         <Class IRI="#ExerciseEquipment"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#HipHinge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Isometric"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Locomotion"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#LowerBody"/>
+        <Class IRI="#Lunge"/>
     </Declaration>
     <Declaration>
         <Class IRI="#MovementPattern"/>
@@ -40,10 +46,13 @@
         <Class IRI="#Push"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Rotational"/>
+        <Class IRI="#Rotation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UpperBody"/>
+        <Class IRI="#RotationalMovement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Squat"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasMovementPattern"/>
@@ -62,6 +71,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#bb-bench-press"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bb-front-squat"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#deadlift"/>
@@ -88,11 +100,19 @@
         <AnnotationProperty IRI="#guid"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="#AntiRotational"/>
-        <Class IRI="#Core"/>
+        <Class IRI="#AntiRotation"/>
+        <Class IRI="#Rotation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Core"/>
+        <Class IRI="#Complex"/>
+        <Class IRI="#MovementPattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HipHinge"/>
+        <Class IRI="#MovementPattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Isometric"/>
         <Class IRI="#MovementPattern"/>
     </SubClassOf>
     <SubClassOf>
@@ -100,25 +120,44 @@
         <Class IRI="#MovementPattern"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#LowerBody"/>
+        <Class IRI="#Lunge"/>
         <Class IRI="#MovementPattern"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Pull"/>
-        <Class IRI="#UpperBody"/>
+        <Class IRI="#MovementPattern"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Push"/>
-        <Class IRI="#UpperBody"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Rotational"/>
-        <Class IRI="#Core"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#UpperBody"/>
         <Class IRI="#MovementPattern"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rotation"/>
+        <Class IRI="#MovementPattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RotationalMovement"/>
+        <Class IRI="#Rotation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Squat"/>
+        <Class IRI="#MovementPattern"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AntiRotation"/>
+        <Class IRI="#RotationalMovement"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Complex"/>
+        <Class IRI="#HipHinge"/>
+        <Class IRI="#Isometric"/>
+        <Class IRI="#Locomotion"/>
+        <Class IRI="#Lunge"/>
+        <Class IRI="#Pull"/>
+        <Class IRI="#Push"/>
+        <Class IRI="#Rotation"/>
+        <Class IRI="#Squat"/>
+    </DisjointClasses>
     <ClassAssertion>
         <Class IRI="#ExerciseEquipment"/>
         <NamedIndividual IRI="#Barbell"/>
@@ -137,6 +176,10 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Exercise"/>
+        <NamedIndividual IRI="#bb-front-squat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Exercise"/>
         <NamedIndividual IRI="#deadlift"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -148,16 +191,12 @@
         <NamedIndividual IRI="#horizontal-press-movement"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#LowerBody"/>
+        <Class IRI="#Squat"/>
         <NamedIndividual IRI="#squat-movement"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Exercise"/>
         <NamedIndividual IRI="#standing_bb_overhead_press"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Push"/>
-        <NamedIndividual IRI="#upward-press-movement"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasMovementPattern"/>
@@ -177,6 +216,21 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#usesEquipment"/>
         <NamedIndividual IRI="#bb-bench-press"/>
+        <NamedIndividual IRI="#Rack"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovementPattern"/>
+        <NamedIndividual IRI="#bb-front-squat"/>
+        <NamedIndividual IRI="#squat-movement"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usesEquipment"/>
+        <NamedIndividual IRI="#bb-front-squat"/>
+        <NamedIndividual IRI="#Barbell"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usesEquipment"/>
+        <NamedIndividual IRI="#bb-front-squat"/>
         <NamedIndividual IRI="#Rack"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -257,6 +311,11 @@
         <AnnotationProperty IRI="#guid"/>
         <IRI>#bb-bench-press</IRI>
         <Literal>a8e0bf51-8e5e-45fc-b79a-7566fe6f1a85</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#guid"/>
+        <IRI>#bb-front-squat</IRI>
+        <Literal>9f15d4dc-4728-4686-a273-1bb9aebe7c24</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#guid"/>
