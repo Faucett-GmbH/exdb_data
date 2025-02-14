@@ -91,7 +91,13 @@
         <NamedIndividual IRI="#Rack"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#adductor-brevis"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#adductor-magnus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#adductors"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#bb-bench-press"/>
@@ -112,7 +118,16 @@
         <NamedIndividual IRI="#deltoid-anterior"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#downard-press-movement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#downward-pull-movement"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#gluteus-maximus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gracilis"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#hamstrings"/>
@@ -125,6 +140,15 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#horizontal-press-movement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#horizontal-pull-movement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lunge-movement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pectineus"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#pectoralis-major"/>
@@ -158,6 +182,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#upward-press-movement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#upward-pull-movement"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#vastus-intermedius"/>
@@ -244,7 +271,15 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Muscle"/>
+        <NamedIndividual IRI="#adductor-brevis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Muscle"/>
         <NamedIndividual IRI="#adductor-magnus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MuscleGroup"/>
+        <NamedIndividual IRI="#adductors"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Exercise"/>
@@ -271,8 +306,20 @@
         <NamedIndividual IRI="#deltoid-anterior"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Push"/>
+        <NamedIndividual IRI="#downard-press-movement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pull"/>
+        <NamedIndividual IRI="#downward-pull-movement"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Muscle"/>
         <NamedIndividual IRI="#gluteus-maximus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Muscle"/>
+        <NamedIndividual IRI="#gracilis"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MuscleGroup"/>
@@ -289,6 +336,18 @@
     <ClassAssertion>
         <Class IRI="#Push"/>
         <NamedIndividual IRI="#horizontal-press-movement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pull"/>
+        <NamedIndividual IRI="#horizontal-pull-movement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lunge"/>
+        <NamedIndividual IRI="#lunge-movement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Muscle"/>
+        <NamedIndividual IRI="#pectineus"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Muscle"/>
@@ -335,6 +394,10 @@
         <NamedIndividual IRI="#upward-press-movement"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Pull"/>
+        <NamedIndividual IRI="#upward-pull-movement"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Muscle"/>
         <NamedIndividual IRI="#vastus-intermedius"/>
     </ClassAssertion>
@@ -346,6 +409,11 @@
         <Class IRI="#Muscle"/>
         <NamedIndividual IRI="#vastus-medialis"/>
     </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#partOf"/>
+        <NamedIndividual IRI="#adductor-brevis"/>
+        <NamedIndividual IRI="#adductors"/>
+    </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasMovementPattern"/>
         <NamedIndividual IRI="#bb-bench-press"/>
@@ -422,6 +490,31 @@
         <NamedIndividual IRI="#squat-movement"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSynergist"/>
+        <NamedIndividual IRI="#bb-overhead-squat"/>
+        <NamedIndividual IRI="#adductor-magnus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSynergist"/>
+        <NamedIndividual IRI="#bb-overhead-squat"/>
+        <NamedIndividual IRI="#gluteus-maximus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSynergist"/>
+        <NamedIndividual IRI="#bb-overhead-squat"/>
+        <NamedIndividual IRI="#hamstrings"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSynergist"/>
+        <NamedIndividual IRI="#bb-overhead-squat"/>
+        <NamedIndividual IRI="#soleus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTarget"/>
+        <NamedIndividual IRI="#bb-overhead-squat"/>
+        <NamedIndividual IRI="#quadriceps"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#partOf"/>
         <NamedIndividual IRI="#biceps-femoris"/>
         <NamedIndividual IRI="#hamstrings"/>
@@ -435,6 +528,11 @@
         <ObjectProperty IRI="#usesEquipment"/>
         <NamedIndividual IRI="#deadlift"/>
         <NamedIndividual IRI="#Barbell"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#partOf"/>
+        <NamedIndividual IRI="#gracilis"/>
+        <NamedIndividual IRI="#adductors"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasPart"/>
@@ -460,6 +558,11 @@
         <ObjectProperty IRI="#usesEquipment"/>
         <NamedIndividual IRI="#high-bar-squat"/>
         <NamedIndividual IRI="#Rack"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#partOf"/>
+        <NamedIndividual IRI="#pectineus"/>
+        <NamedIndividual IRI="#adductors"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#partOf"/>
