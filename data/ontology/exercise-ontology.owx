@@ -103,6 +103,9 @@
         <Class IRI="#WeightMachine"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasDynamicStabilizer"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasMovementPattern"/>
     </Declaration>
     <Declaration>
@@ -139,6 +142,9 @@
         <NamedIndividual IRI="#bb-front-squat"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#bb-lunge"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#bb-overhead-squat"/>
     </Declaration>
     <Declaration>
@@ -146,6 +152,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#biceps-femoris"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#calves"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#deadlift"/>
@@ -161,6 +170,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#dumbbell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gastrocnemius"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#gluteus-maximus"/>
@@ -396,6 +408,10 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Exercise"/>
+        <NamedIndividual IRI="#bb-lunge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Exercise"/>
         <NamedIndividual IRI="#bb-overhead-squat"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -405,6 +421,10 @@
     <ClassAssertion>
         <Class IRI="#Muscle"/>
         <NamedIndividual IRI="#biceps-femoris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MuscleGroup"/>
+        <NamedIndividual IRI="#calves"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Exercise"/>
@@ -425,6 +445,10 @@
     <ClassAssertion>
         <Class IRI="#FreeWeight"/>
         <NamedIndividual IRI="#dumbbell"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Muscle"/>
+        <NamedIndividual IRI="#gastrocnemius"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Muscle"/>
@@ -606,6 +630,41 @@
         <NamedIndividual IRI="#rack"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDynamicStabilizer"/>
+        <NamedIndividual IRI="#bb-lunge"/>
+        <NamedIndividual IRI="#gastrocnemius"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDynamicStabilizer"/>
+        <NamedIndividual IRI="#bb-lunge"/>
+        <NamedIndividual IRI="#hamstrings"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovementPattern"/>
+        <NamedIndividual IRI="#bb-lunge"/>
+        <NamedIndividual IRI="#lunge-movement"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSynergist"/>
+        <NamedIndividual IRI="#bb-lunge"/>
+        <NamedIndividual IRI="#adductor-magnus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSynergist"/>
+        <NamedIndividual IRI="#bb-lunge"/>
+        <NamedIndividual IRI="#gluteus-maximus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSynergist"/>
+        <NamedIndividual IRI="#bb-lunge"/>
+        <NamedIndividual IRI="#soleus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTarget"/>
+        <NamedIndividual IRI="#bb-lunge"/>
+        <NamedIndividual IRI="#quadriceps"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasMovementPattern"/>
         <NamedIndividual IRI="#bb-overhead-squat"/>
         <NamedIndividual IRI="#squat-movement"/>
@@ -652,6 +711,11 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#partOf"/>
+        <NamedIndividual IRI="#gastrocnemius"/>
+        <NamedIndividual IRI="#calves"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#partOf"/>
         <NamedIndividual IRI="#gracilis"/>
         <NamedIndividual IRI="#adductors"/>
     </ObjectPropertyAssertion>
@@ -691,6 +755,11 @@
         <NamedIndividual IRI="#quadriceps"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#partOf"/>
+        <NamedIndividual IRI="#soleus"/>
+        <NamedIndividual IRI="#calves"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasMovementPattern"/>
         <NamedIndividual IRI="#standing_bb_overhead_press"/>
         <NamedIndividual IRI="#upward-press-movement"/>
@@ -724,6 +793,10 @@
         <ObjectProperty IRI="#usesEquipment"/>
     </AsymmetricObjectProperty>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDynamicStabilizer"/>
+        <Class IRI="#Exercise"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasMovementPattern"/>
         <Class IRI="#Exercise"/>
     </ObjectPropertyDomain>
@@ -748,12 +821,36 @@
         <Class IRI="#Exercise"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDynamicStabilizer"/>
+        <Class IRI="#Muscle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDynamicStabilizer"/>
+        <Class IRI="#MuscleGroup"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasMovementPattern"/>
         <Class IRI="#MovementPattern"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasPart"/>
         <Class IRI="#Muscle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSynergist"/>
+        <Class IRI="#Muscle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSynergist"/>
+        <Class IRI="#MuscleGroup"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTarget"/>
+        <Class IRI="#Muscle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTarget"/>
+        <Class IRI="#MuscleGroup"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#partOf"/>
@@ -777,6 +874,11 @@
         <AnnotationProperty IRI="#guid"/>
         <IRI>#bb-front-squat</IRI>
         <Literal>9f15d4dc-4728-4686-a273-1bb9aebe7c24</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#guid"/>
+        <IRI>#bb-lunge</IRI>
+        <Literal>a598ffe5-072e-422f-9019-a025157e6ac0</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#guid"/>
