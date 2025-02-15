@@ -1,0 +1,10 @@
+---
+uri: dumbbell
+guid: bf5c295e-5e47-4188-8640-5963340ab766
+translations:
+  - name: Dumbbell
+    uri: dumbbell
+    locale: en
+  - name: Kurzhantel
+    uri: Kurzhantel
+    locale: de

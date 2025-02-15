@@ -1,0 +1,10 @@
+---
+uri: kettlebell
+guid: 10c8a241-cf50-4f3c-910f-3a22d4d3c9ea
+translations:
+  - name: Kettlebell
+    uri: Kettlebell
+    locale: en
+  - name: Kugelhantel
+    uri: Kugelhantel
+    locale: de

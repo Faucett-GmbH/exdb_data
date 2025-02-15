@@ -16,7 +16,19 @@
         <Class IRI="#AntiRotation"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#BenchAndRack"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#BodyRegion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BodyweightTrainingEquipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CardioEquipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CombatSportsEquipment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Complex"/>
@@ -26,6 +38,18 @@
     </Declaration>
     <Declaration>
         <Class IRI="#ExerciseEquipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FreeWeight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FunctionalFitnessEquipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GripAndForearm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GymAccessories"/>
     </Declaration>
     <Declaration>
         <Class IRI="#HipHinge"/>
@@ -55,13 +79,28 @@
         <Class IRI="#Push"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#RecoveryAndMobilityEquipment"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Rotation"/>
     </Declaration>
     <Declaration>
         <Class IRI="#RotationalMovement"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#SpecializedTrainingEquipment"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Squat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StrengthTrainingEquipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StrongmanEquipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WeightMachine"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasMovementPattern"/>
@@ -82,15 +121,6 @@
         <ObjectProperty IRI="#usesEquipment"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Barbell"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Bench"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Rack"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#adductor-brevis"/>
     </Declaration>
     <Declaration>
@@ -100,6 +130,9 @@
         <NamedIndividual IRI="#adductors"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#barbell"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#bb-bench-press"/>
     </Declaration>
     <Declaration>
@@ -107,6 +140,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#bb-overhead-squat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bench"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#biceps-femoris"/>
@@ -122,6 +158,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#downward-pull-movement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dumbbell"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#gluteus-maximus"/>
@@ -145,6 +184,9 @@
         <NamedIndividual IRI="#horizontal-pull-movement"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#kettlebell"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#lunge-movement"/>
     </Declaration>
     <Declaration>
@@ -158,6 +200,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#quadriceps"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rack"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#rectus-femoris"/>
@@ -203,8 +248,40 @@
         <Class IRI="#Rotation"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#BenchAndRack"/>
+        <Class IRI="#StrengthTrainingEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BodyweightTrainingEquipment"/>
+        <Class IRI="#ExerciseEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CardioEquipment"/>
+        <Class IRI="#ExerciseEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CombatSportsEquipment"/>
+        <Class IRI="#ExerciseEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Complex"/>
         <Class IRI="#MovementPattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FreeWeight"/>
+        <Class IRI="#StrengthTrainingEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FunctionalFitnessEquipment"/>
+        <Class IRI="#ExerciseEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GripAndForearm"/>
+        <Class IRI="#StrengthTrainingEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GymAccessories"/>
+        <Class IRI="#ExerciseEquipment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HipHinge"/>
@@ -231,6 +308,10 @@
         <Class IRI="#MovementPattern"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#RecoveryAndMobilityEquipment"/>
+        <Class IRI="#ExerciseEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Rotation"/>
         <Class IRI="#MovementPattern"/>
     </SubClassOf>
@@ -239,14 +320,46 @@
         <Class IRI="#Rotation"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#SpecializedTrainingEquipment"/>
+        <Class IRI="#ExerciseEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Squat"/>
         <Class IRI="#MovementPattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StrengthTrainingEquipment"/>
+        <Class IRI="#ExerciseEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StrongmanEquipment"/>
+        <Class IRI="#FunctionalFitnessEquipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WeightMachine"/>
+        <Class IRI="#StrengthTrainingEquipment"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#AntiRotation"/>
         <Class IRI="#RotationalMovement"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#BenchAndRack"/>
+        <Class IRI="#FreeWeight"/>
+        <Class IRI="#GripAndForearm"/>
+        <Class IRI="#WeightMachine"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BodyweightTrainingEquipment"/>
+        <Class IRI="#CardioEquipment"/>
+        <Class IRI="#CombatSportsEquipment"/>
+        <Class IRI="#FunctionalFitnessEquipment"/>
+        <Class IRI="#GymAccessories"/>
+        <Class IRI="#RecoveryAndMobilityEquipment"/>
+        <Class IRI="#SpecializedTrainingEquipment"/>
+        <Class IRI="#StrengthTrainingEquipment"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#Complex"/>
         <Class IRI="#HipHinge"/>
         <Class IRI="#Isometric"/>
@@ -257,18 +370,6 @@
         <Class IRI="#Rotation"/>
         <Class IRI="#Squat"/>
     </DisjointClasses>
-    <ClassAssertion>
-        <Class IRI="#ExerciseEquipment"/>
-        <NamedIndividual IRI="#Barbell"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#ExerciseEquipment"/>
-        <NamedIndividual IRI="#Bench"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#ExerciseEquipment"/>
-        <NamedIndividual IRI="#Rack"/>
-    </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Muscle"/>
         <NamedIndividual IRI="#adductor-brevis"/>
@@ -282,6 +383,10 @@
         <NamedIndividual IRI="#adductors"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#FreeWeight"/>
+        <NamedIndividual IRI="#barbell"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Exercise"/>
         <NamedIndividual IRI="#bb-bench-press"/>
     </ClassAssertion>
@@ -292,6 +397,10 @@
     <ClassAssertion>
         <Class IRI="#Exercise"/>
         <NamedIndividual IRI="#bb-overhead-squat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BenchAndRack"/>
+        <NamedIndividual IRI="#bench"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Muscle"/>
@@ -312,6 +421,10 @@
     <ClassAssertion>
         <Class IRI="#Pull"/>
         <NamedIndividual IRI="#downward-pull-movement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FreeWeight"/>
+        <NamedIndividual IRI="#dumbbell"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Muscle"/>
@@ -342,6 +455,10 @@
         <NamedIndividual IRI="#horizontal-pull-movement"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#FreeWeight"/>
+        <NamedIndividual IRI="#kettlebell"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Lunge"/>
         <NamedIndividual IRI="#lunge-movement"/>
     </ClassAssertion>
@@ -360,6 +477,10 @@
     <ClassAssertion>
         <Class IRI="#MuscleGroup"/>
         <NamedIndividual IRI="#quadriceps"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BenchAndRack"/>
+        <NamedIndividual IRI="#rack"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Muscle"/>
@@ -437,17 +558,17 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#usesEquipment"/>
         <NamedIndividual IRI="#bb-bench-press"/>
-        <NamedIndividual IRI="#Barbell"/>
+        <NamedIndividual IRI="#barbell"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#usesEquipment"/>
         <NamedIndividual IRI="#bb-bench-press"/>
-        <NamedIndividual IRI="#Bench"/>
+        <NamedIndividual IRI="#bench"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#usesEquipment"/>
         <NamedIndividual IRI="#bb-bench-press"/>
-        <NamedIndividual IRI="#Rack"/>
+        <NamedIndividual IRI="#rack"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasMovementPattern"/>
@@ -477,12 +598,12 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#usesEquipment"/>
         <NamedIndividual IRI="#bb-front-squat"/>
-        <NamedIndividual IRI="#Barbell"/>
+        <NamedIndividual IRI="#barbell"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#usesEquipment"/>
         <NamedIndividual IRI="#bb-front-squat"/>
-        <NamedIndividual IRI="#Rack"/>
+        <NamedIndividual IRI="#rack"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasMovementPattern"/>
@@ -527,7 +648,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#usesEquipment"/>
         <NamedIndividual IRI="#deadlift"/>
-        <NamedIndividual IRI="#Barbell"/>
+        <NamedIndividual IRI="#barbell"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#partOf"/>
@@ -552,12 +673,12 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#usesEquipment"/>
         <NamedIndividual IRI="#high-bar-squat"/>
-        <NamedIndividual IRI="#Barbell"/>
+        <NamedIndividual IRI="#barbell"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#usesEquipment"/>
         <NamedIndividual IRI="#high-bar-squat"/>
-        <NamedIndividual IRI="#Rack"/>
+        <NamedIndividual IRI="#rack"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#partOf"/>
@@ -577,12 +698,12 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#usesEquipment"/>
         <NamedIndividual IRI="#standing_bb_overhead_press"/>
-        <NamedIndividual IRI="#Barbell"/>
+        <NamedIndividual IRI="#barbell"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#usesEquipment"/>
         <NamedIndividual IRI="#standing_bb_overhead_press"/>
-        <NamedIndividual IRI="#Rack"/>
+        <NamedIndividual IRI="#rack"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#partOf"/>
@@ -644,18 +765,8 @@
     </ObjectPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#guid"/>
-        <IRI>#Barbell</IRI>
+        <IRI>#barbell</IRI>
         <Literal>2a24ffe6-c7fd-49ca-a724-670e1bad96f1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#guid"/>
-        <IRI>#Bench</IRI>
-        <Literal>478b084c-7d0f-4327-8667-b128858a1664</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#guid"/>
-        <IRI>#Rack</IRI>
-        <Literal>478b084c-7d0f-4327-8667-b128858a1664</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#guid"/>
@@ -674,13 +785,33 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#guid"/>
+        <IRI>#bench</IRI>
+        <Literal>478b084c-7d0f-4327-8667-b128858a1664</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#guid"/>
         <IRI>#deadlift</IRI>
         <Literal>a39988f4-d1ad-436d-aa91-6b90d32f270d</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#guid"/>
+        <IRI>#dumbbell</IRI>
+        <Literal>bf5c295e-5e47-4188-8640-5963340ab766</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#guid"/>
         <IRI>#high-bar-squat</IRI>
         <Literal>0258b3f2-0e93-445e-85fc-6bc545006d29</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#guid"/>
+        <IRI>#kettlebell</IRI>
+        <Literal>10c8a241-cf50-4f3c-910f-3a22d4d3c9ea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#guid"/>
+        <IRI>#rack</IRI>
+        <Literal>478b084c-7d0f-4327-8667-b128858a1664</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#guid"/>
