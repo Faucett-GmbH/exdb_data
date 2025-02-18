@@ -1,0 +1,10 @@
+---
+uri: sandbag
+guid: dd0f73ec-0a69-42dd-98ed-c6ab5893b267
+translations:
+  - name: Sandbag
+    uri: sandbag
+    locale: en
+  - name: Sandbag
+    uri: sandbag
+    locale: de

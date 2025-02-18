@@ -109,7 +109,13 @@
         <ObjectProperty IRI="#hasMovementPattern"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasPart"/>
+        <ObjectProperty IRI="#hasMuscle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMuscleGroup"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStabilizer"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasSynergist"/>
@@ -118,10 +124,10 @@
         <ObjectProperty IRI="#hasTarget"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#partOf"/>
+        <ObjectProperty IRI="#usesEquipment"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#usesEquipment"/>
+        <NamedIndividual IRI="#abdominals"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#adductor-brevis"/>
@@ -151,6 +157,9 @@
         <NamedIndividual IRI="#bench"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#biceps-brachii"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#biceps-femoris"/>
     </Declaration>
     <Declaration>
@@ -166,6 +175,15 @@
         <NamedIndividual IRI="#deltoid-anterior"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#deltoid-lateral"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#deltoid-posterior"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#deltoids"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#dip-belt"/>
     </Declaration>
     <Declaration>
@@ -176,6 +194,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#dumbbell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#erector-spinae"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#gastrocnemius"/>
@@ -202,6 +223,9 @@
         <NamedIndividual IRI="#horizontal-pull-movement"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#infraspinatus"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#kettlebell"/>
     </Declaration>
     <Declaration>
@@ -212,6 +236,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#lunge-movement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#obliques"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#pectineus"/>
@@ -229,16 +256,31 @@
         <NamedIndividual IRI="#rack"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#rectus-abdominis"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#rectus-femoris"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#rhomboids"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#rotator-cuff-muscles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sandbag"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#semimembranosus"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#semitendinosus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#serratus-anterior"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#snatch"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#soleus"/>
@@ -250,7 +292,31 @@
         <NamedIndividual IRI="#standing_bb_overhead_press"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#subscapularis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#supraspinatus"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#teres-major"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#teres-minor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#transverse-abdominis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#trapezius"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#trapezius-lower"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#trapezius-middle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#trapezius-upper"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#triceps-brachii"/>
@@ -404,6 +470,10 @@
         <Class IRI="#Squat"/>
     </DisjointClasses>
     <ClassAssertion>
+        <Class IRI="#MuscleGroup"/>
+        <NamedIndividual IRI="#abdominals"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Muscle"/>
         <NamedIndividual IRI="#adductor-brevis"/>
     </ClassAssertion>
@@ -441,6 +511,10 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Muscle"/>
+        <NamedIndividual IRI="#biceps-brachii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Muscle"/>
         <NamedIndividual IRI="#biceps-femoris"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -460,6 +534,18 @@
         <NamedIndividual IRI="#deltoid-anterior"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Muscle"/>
+        <NamedIndividual IRI="#deltoid-lateral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Muscle"/>
+        <NamedIndividual IRI="#deltoid-posterior"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MuscleGroup"/>
+        <NamedIndividual IRI="#deltoids"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#GymAccessories"/>
         <NamedIndividual IRI="#dip-belt"/>
     </ClassAssertion>
@@ -474,6 +560,10 @@
     <ClassAssertion>
         <Class IRI="#FreeWeight"/>
         <NamedIndividual IRI="#dumbbell"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Muscle"/>
+        <NamedIndividual IRI="#erector-spinae"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Muscle"/>
@@ -508,6 +598,10 @@
         <NamedIndividual IRI="#horizontal-pull-movement"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Muscle"/>
+        <NamedIndividual IRI="#infraspinatus"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#FreeWeight"/>
         <NamedIndividual IRI="#kettlebell"/>
     </ClassAssertion>
@@ -522,6 +616,10 @@
     <ClassAssertion>
         <Class IRI="#Lunge"/>
         <NamedIndividual IRI="#lunge-movement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Muscle"/>
+        <NamedIndividual IRI="#obliques"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Muscle"/>
@@ -545,11 +643,23 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Muscle"/>
+        <NamedIndividual IRI="#rectus-abdominis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Muscle"/>
         <NamedIndividual IRI="#rectus-femoris"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Muscle"/>
         <NamedIndividual IRI="#rhomboids"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MuscleGroup"/>
+        <NamedIndividual IRI="#rotator-cuff-muscles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FreeWeight"/>
+        <NamedIndividual IRI="#sandbag"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Muscle"/>
@@ -558,6 +668,14 @@
     <ClassAssertion>
         <Class IRI="#Muscle"/>
         <NamedIndividual IRI="#semitendinosus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Muscle"/>
+        <NamedIndividual IRI="#serratus-anterior"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Exercise"/>
+        <NamedIndividual IRI="#snatch"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Muscle"/>
@@ -573,7 +691,39 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Muscle"/>
+        <NamedIndividual IRI="#subscapularis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Muscle"/>
+        <NamedIndividual IRI="#supraspinatus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Muscle"/>
         <NamedIndividual IRI="#teres-major"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Muscle"/>
+        <NamedIndividual IRI="#teres-minor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Muscle"/>
+        <NamedIndividual IRI="#transverse-abdominis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MuscleGroup"/>
+        <NamedIndividual IRI="#trapezius"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Muscle"/>
+        <NamedIndividual IRI="#trapezius-lower"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Muscle"/>
+        <NamedIndividual IRI="#trapezius-middle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Muscle"/>
+        <NamedIndividual IRI="#trapezius-upper"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MuscleGroup"/>
@@ -604,9 +754,19 @@
         <NamedIndividual IRI="#weighted-dip"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#partOf"/>
-        <NamedIndividual IRI="#adductor-brevis"/>
-        <NamedIndividual IRI="#adductors"/>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#abdominals"/>
+        <NamedIndividual IRI="#obliques"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#abdominals"/>
+        <NamedIndividual IRI="#rectus-abdominis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#abdominals"/>
+        <NamedIndividual IRI="#transverse-abdominis"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasMovementPattern"/>
@@ -744,9 +904,14 @@
         <NamedIndividual IRI="#quadriceps"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#partOf"/>
-        <NamedIndividual IRI="#biceps-femoris"/>
-        <NamedIndividual IRI="#hamstrings"/>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#calves"/>
+        <NamedIndividual IRI="#gastrocnemius"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#calves"/>
+        <NamedIndividual IRI="#soleus"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasMovementPattern"/>
@@ -759,22 +924,27 @@
         <NamedIndividual IRI="#barbell"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#partOf"/>
-        <NamedIndividual IRI="#gastrocnemius"/>
-        <NamedIndividual IRI="#calves"/>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#deltoids"/>
+        <NamedIndividual IRI="#deltoid-anterior"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#partOf"/>
-        <NamedIndividual IRI="#gracilis"/>
-        <NamedIndividual IRI="#adductors"/>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#deltoids"/>
+        <NamedIndividual IRI="#deltoid-lateral"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasPart"/>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#deltoids"/>
+        <NamedIndividual IRI="#deltoid-posterior"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
         <NamedIndividual IRI="#hamstrings"/>
         <NamedIndividual IRI="#biceps-femoris"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasPart"/>
+        <ObjectProperty IRI="#hasMuscle"/>
         <NamedIndividual IRI="#hamstrings"/>
         <NamedIndividual IRI="#semimembranosus"/>
     </ObjectPropertyAssertion>
@@ -794,19 +964,139 @@
         <NamedIndividual IRI="#rack"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#partOf"/>
-        <NamedIndividual IRI="#pectineus"/>
-        <NamedIndividual IRI="#adductors"/>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#quadriceps"/>
+        <NamedIndividual IRI="#rectus-femoris"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#partOf"/>
-        <NamedIndividual IRI="#rectus-femoris"/>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#quadriceps"/>
+        <NamedIndividual IRI="#vastus-intermedius"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#quadriceps"/>
+        <NamedIndividual IRI="#vastus-lateralis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#quadriceps"/>
+        <NamedIndividual IRI="#vastus-medialis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#rotator-cuff-muscles"/>
+        <NamedIndividual IRI="#infraspinatus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#rotator-cuff-muscles"/>
+        <NamedIndividual IRI="#subscapularis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#rotator-cuff-muscles"/>
+        <NamedIndividual IRI="#supraspinatus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#rotator-cuff-muscles"/>
+        <NamedIndividual IRI="#teres-minor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovementPattern"/>
+        <NamedIndividual IRI="#snatch"/>
+        <NamedIndividual IRI="#hinge-movement"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovementPattern"/>
+        <NamedIndividual IRI="#snatch"/>
+        <NamedIndividual IRI="#squat-movement"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovementPattern"/>
+        <NamedIndividual IRI="#snatch"/>
+        <NamedIndividual IRI="#upward-press-movement"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovementPattern"/>
+        <NamedIndividual IRI="#snatch"/>
+        <NamedIndividual IRI="#upward-pull-movement"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStabilizer"/>
+        <NamedIndividual IRI="#snatch"/>
+        <NamedIndividual IRI="#abdominals"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStabilizer"/>
+        <NamedIndividual IRI="#snatch"/>
+        <NamedIndividual IRI="#rhomboids"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStabilizer"/>
+        <NamedIndividual IRI="#snatch"/>
+        <NamedIndividual IRI="#rotator-cuff-muscles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStabilizer"/>
+        <NamedIndividual IRI="#snatch"/>
+        <NamedIndividual IRI="#serratus-anterior"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStabilizer"/>
+        <NamedIndividual IRI="#snatch"/>
+        <NamedIndividual IRI="#trapezius-lower"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSynergist"/>
+        <NamedIndividual IRI="#snatch"/>
+        <NamedIndividual IRI="#biceps-brachii"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSynergist"/>
+        <NamedIndividual IRI="#snatch"/>
+        <NamedIndividual IRI="#calves"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSynergist"/>
+        <NamedIndividual IRI="#snatch"/>
+        <NamedIndividual IRI="#erector-spinae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSynergist"/>
+        <NamedIndividual IRI="#snatch"/>
+        <NamedIndividual IRI="#hamstrings"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTarget"/>
+        <NamedIndividual IRI="#snatch"/>
+        <NamedIndividual IRI="#deltoid-anterior"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTarget"/>
+        <NamedIndividual IRI="#snatch"/>
+        <NamedIndividual IRI="#deltoid-lateral"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTarget"/>
+        <NamedIndividual IRI="#snatch"/>
+        <NamedIndividual IRI="#gluteus-maximus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTarget"/>
+        <NamedIndividual IRI="#snatch"/>
         <NamedIndividual IRI="#quadriceps"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#partOf"/>
-        <NamedIndividual IRI="#soleus"/>
-        <NamedIndividual IRI="#calves"/>
+        <ObjectProperty IRI="#hasTarget"/>
+        <NamedIndividual IRI="#snatch"/>
+        <NamedIndividual IRI="#trapezius-middle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTarget"/>
+        <NamedIndividual IRI="#snatch"/>
+        <NamedIndividual IRI="#trapezius-upper"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasMovementPattern"/>
@@ -824,19 +1114,19 @@
         <NamedIndividual IRI="#rack"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#partOf"/>
-        <NamedIndividual IRI="#vastus-intermedius"/>
-        <NamedIndividual IRI="#quadriceps"/>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#trapezius"/>
+        <NamedIndividual IRI="#trapezius-lower"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#partOf"/>
-        <NamedIndividual IRI="#vastus-lateralis"/>
-        <NamedIndividual IRI="#quadriceps"/>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#trapezius"/>
+        <NamedIndividual IRI="#trapezius-middle"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#partOf"/>
-        <NamedIndividual IRI="#vastus-medialis"/>
-        <NamedIndividual IRI="#quadriceps"/>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#trapezius"/>
+        <NamedIndividual IRI="#trapezius-upper"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasMovementPattern"/>
@@ -889,8 +1179,23 @@
         <NamedIndividual IRI="#dip-belt"/>
     </ObjectPropertyAssertion>
     <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasMuscle"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasMuscleGroup"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
         <ObjectProperty IRI="#usesEquipment"/>
     </AsymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasMuscleGroup"/>
+    </TransitiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasMuscle"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasMuscleGroup"/>
+    </IrreflexiveObjectProperty>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasDynamicStabilizer"/>
         <Class IRI="#Exercise"/>
@@ -900,8 +1205,16 @@
         <Class IRI="#Exercise"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasPart"/>
+        <ObjectProperty IRI="#hasMuscle"/>
         <Class IRI="#MuscleGroup"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMuscleGroup"/>
+        <Class IRI="#MuscleGroup"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStabilizer"/>
+        <Class IRI="#Exercise"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasSynergist"/>
@@ -910,10 +1223,6 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasTarget"/>
         <Class IRI="#Exercise"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#partOf"/>
-        <Class IRI="#Muscle"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#usesEquipment"/>
@@ -932,8 +1241,20 @@
         <Class IRI="#MovementPattern"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasPart"/>
+        <ObjectProperty IRI="#hasMuscle"/>
         <Class IRI="#Muscle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMuscleGroup"/>
+        <Class IRI="#MuscleGroup"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasStabilizer"/>
+        <Class IRI="#Muscle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasStabilizer"/>
+        <Class IRI="#MuscleGroup"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasSynergist"/>
@@ -949,10 +1270,6 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasTarget"/>
-        <Class IRI="#MuscleGroup"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#partOf"/>
         <Class IRI="#MuscleGroup"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
@@ -1018,6 +1335,16 @@
         <AnnotationProperty IRI="#guid"/>
         <IRI>#rack</IRI>
         <Literal>478b084c-7d0f-4327-8667-b128858a1664</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#guid"/>
+        <IRI>#sandbag</IRI>
+        <Literal>dd0f73ec-0a69-42dd-98ed-c6ab5893b267</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#guid"/>
+        <IRI>#snatch</IRI>
+        <Literal>476508f1-79e6-4ad2-bf88-a92c21be92a4</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#guid"/>
