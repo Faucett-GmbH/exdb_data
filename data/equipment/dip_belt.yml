@@ -1,0 +1,10 @@
+---
+uri: dip-belt
+guid: 5d3e879b-b8ed-46e0-85ee-6e9e03ac1c53
+translations:
+  - name: Dip Belt
+    uri: dip-belt
+    locale: en
+  - name: Dip Gürtel
+    uri: dip-guertel
+    locale: de
