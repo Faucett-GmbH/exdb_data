@@ -6,5 +6,5 @@ translations:
     uri: barbell
     locale: en
   - name: Langhantel
-    uri: Langhantel
+    uri: langhantel
     locale: de

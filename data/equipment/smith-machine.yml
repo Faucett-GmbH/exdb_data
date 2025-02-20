@@ -1,0 +1,10 @@
+---
+uri: smith-machine
+guid: 478531b0-0a1f-4741-a0a6-db6062b763f0
+translations:
+  - name: Smith Machine
+    uri: smith-machine
+    locale: en
+  - name: Smith Maschine
+    uri: smith-maschine
+    locale: de

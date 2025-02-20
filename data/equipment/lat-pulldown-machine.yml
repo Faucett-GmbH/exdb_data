@@ -1,0 +1,10 @@
+---
+uri: lat-pulldown-machine
+guid: b31de798-685a-4ffe-96d7-c71fad03d7ea
+translations:
+  - name: Lat Pulldown Machine
+    uri: lat-pulldown-machine
+    locale: en
+  - name: Latzug Maschine
+    uri: latzug-maschine
+    locale: de
