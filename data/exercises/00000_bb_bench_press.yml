@@ -23,3 +23,41 @@ translations:
     tips:
       - Focus on keeping the movement controlled avoiding bouncing the bar or arching excessively.
       - Keep your body tight, chest up, and press with intention to engage the target muscles efficiently.
+  - name: Langhantel Bankdrücken
+    uri: lh-bankdruecken
+    guid: 55be2a99-f528-481e-9bd4-2b1b3ccb4f23
+    locale: de
+    alternative_names: []
+    video_url: ""
+    summary: |
+      Das Langhantel Bankdrücken ist eine zusammengesetzte Übung für den Oberkörper, die vorwiegend die Brustmuskulatur trainiert und gleichzeitig Schultern und Trizeps beansprucht. Es ist eine grundlegende Bewegung zum Aufbau von Drückkraft und Muskelmasse im Oberkörper.
+    description: |
+      Das Langhantel Bankdrücken ist der König der Drückübungen für den Oberkörper. Auf einer flachen Bank liegend drückst du eine Langhantel von deiner Brust bis zur vollen Armausstreckung, wobei du die Brustmuskulatur, die Schultern und den Trizeps einsetzt. Es ist eine unverzichtbare Übung für jeden, der einen starken, muskulösen Brustbereich aufbauen und die Drückkraft verbessern möchte. Ob du auf Kraft, Masse oder die allgemeine Entwicklung des Oberkörpers trainierst – das Bankdrücken ist ein Muss.
+    instructions: |
+      1. **Vorbereitung**: Lege dich auf eine flache Bank, sodass deine Augen direkt unter der Langhantel liegen. Stelle deine Füße fest auf den Boden und greife die Langhantel mit etwas breiter als schulterbreitem Griff.
+      2. **Hantel aus dem Gestell nehmen**: Drücke die Langhantel nach oben, sperre dabei deine Ellbogen und führe die Hantel über deine Schultern. Halte deine Schulterblätter zusammengezogen und deine Brust gehoben.
+      3. **Hantel absenken**: Senke die Langhantel kontrolliert bis zur Mitte deiner Brust ab, wobei du deine Ellbogen in einem Winkel von etwa 45 Grad zum Rumpf hältst. Lass die Hantel nicht von deiner Brust abprallen.
+      4. **Hantel nach oben drücken**: Drücke die Langhantel wieder nach oben zur vollen Armausstreckung, indem du über deine Brust und deinen Trizeps drückst. Halte deinen Rücken fest und deine Füße während der gesamten Übung auf dem Boden.
+      5. **Wiederholen**: Führe die Übung für die gewünschte Anzahl an Wiederholungen aus, wobei du Kontrolle und Technik beibehältst. Lege die Hantel nach Beendigung zurück in das Gestell.
+    tips:
+      - Konzentriere dich darauf, die Bewegung kontrolliert auszuführen, um ein Abprallen der Hantel oder übermäßiges Durchbiegen des Rückens zu vermeiden.
+      - Halte deinen Körper straff, die Brust gehoben und drücke mit Absicht, um die Zielmuskeln effizient zu aktivieren.
+  - name: Press de banca con barra
+    uri: press-de-banca-con-barra
+    guid: a0c7831f-e9c1-485e-b09a-ecbc6930c661
+    locale: es
+    alternative_names: []
+    video_url: ""
+    summary: |
+      El press de banca con barra es un ejercicio compuesto para la parte superior del cuerpo que se centra principalmente en el pecho, al mismo tiempo que trabaja los hombros y tríceps. Es un movimiento fundamental para desarrollar la fuerza de empuje y la masa muscular en la parte superior del cuerpo.
+    description: |
+      El press de banca con barra es el rey de los ejercicios de empuje para la parte superior del cuerpo. Acostado en un banco plano, presionas la barra desde tu pecho hasta extender completamente los brazos, involucrando los pectorales, deltoides y tríceps. Es un levantamiento esencial para cualquiera que busque desarrollar un pecho fuerte y musculoso y mejorar la potencia de empuje. Ya sea que entrenes para fuerza, tamaño o desarrollo general de la parte superior del cuerpo, el press de banca es imprescindible.
+    instructions: |
+      1. **Preparación**: Acuéstate en un banco plano con los ojos directamente debajo de la barra. Coloca tus pies firmemente en el suelo y agarra la barra con las manos un poco más separadas que el ancho de los hombros.
+      2. **Sacar la barra del soporte**: Empuja la barra hacia arriba, bloqueando los codos, y muévela sobre tus hombros. Mantén los omóplatos juntos y el pecho levantado.
+      3. **Bajar la barra**: Baja la barra con control hasta la mitad de tu pecho, manteniendo los codos en un ángulo de aproximadamente 45 grados respecto a tu torso. No dejes que la barra rebote en tu pecho.
+      4. **Empujar la barra hacia arriba**: Impulsa la barra de vuelta hasta la extensión completa de los brazos, presionando a través de tu pecho y tríceps. Mantén la espalda tensa y los pies firmemente plantados durante todo el ejercicio.
+      5. **Repetir**: Realiza el ejercicio durante las repeticiones deseadas, manteniendo el control y la forma. Coloca la barra de nuevo en su soporte al terminar.
+    tips:
+      - Concéntrate en mantener el movimiento controlado, evitando que la barra rebote o que arquees demasiado la espalda.
+      - Mantén tu cuerpo firme, el pecho levantado, y presiona con intención para activar eficazmente los músculos objetivo.
