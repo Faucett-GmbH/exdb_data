@@ -3,6 +3,7 @@ uri: weighted_dip
 guid: cdf7d3d4-2c98-41ba-b0b5-c806b55e5683
 image: ""
 thumbnail_image: ""
+execution: WEIGHT_REPS
 translations:
   - name: Weighted Dip
     uri: weighted-dip

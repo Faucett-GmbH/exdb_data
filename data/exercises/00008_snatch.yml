@@ -3,6 +3,7 @@ uri: snatch
 guid: 476508f1-79e6-4ad2-bf88-a92c21be92a4
 image: ""
 thumbnail_image: ""
+execution: WEIGHT_REPS
 translations:
   - name: Snatch
     uri: snatch

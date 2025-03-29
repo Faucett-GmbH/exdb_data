@@ -3,6 +3,7 @@ uri: bb_overhead_squat
 guid: 580ef677-f1bd-4c1f-8a3e-fbd50c21450a
 image: ""
 thumbnail_image: ""
+execution: WEIGHT_REPS
 translations:
   - name: Barbell Overhead Squat
     uri: barbell-overhead-squat
