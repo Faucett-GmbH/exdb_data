@@ -3,6 +3,7 @@ uri: standing_bb_overhead_press
 guid: 20c458cc-2660-4fee-a208-01662762bdaf
 image: ""
 thumbnail_image: ""
+execution: WEIGHT_REPS
 translations:
   - name: Standing Barbell Overhead Press
     uri: standing-bb-overhead-press

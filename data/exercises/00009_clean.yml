@@ -3,6 +3,7 @@ uri: clean
 guid: 55944a3b-ac31-4048-858b-834d2e100fe2
 image: ""
 thumbnail_image: ""
+execution: WEIGHT_REPS
 translations:
   - name: Clean
     uri: clean

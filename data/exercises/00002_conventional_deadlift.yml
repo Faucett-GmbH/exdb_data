@@ -3,6 +3,7 @@ uri: conventional_deadlift
 guid: a39988f4-d1ad-436d-aa91-6b90d32f270d
 image: ""
 thumbnail_image: ""
+execution: WEIGHT_REPS
 translations:
   - name: Conventional Deadlift
     uri: conventional-deadlift

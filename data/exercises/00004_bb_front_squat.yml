@@ -3,6 +3,7 @@ uri: bb_front_squat
 guid: 9f15d4dc-4728-4686-a273-1bb9aebe7c24
 image: ""
 thumbnail_image: ""
+execution: WEIGHT_REPS
 translations:
   - name: Barbell Front Squat
     uri: barbell-front-squat

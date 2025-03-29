@@ -3,6 +3,7 @@ uri: high_bar_squat
 guid: 0258b3f2-0e93-445e-85fc-6bc545006d29
 image: high_bar_squat.webp
 thumbnail_image: high_bar_squat_200x200.webp
+execution: WEIGHT_REPS
 translations:
   - name: High Bar Barbell Squat
     uri: high-bar-barbell-squat
