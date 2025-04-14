@@ -1,16 +1,16 @@
 ---
 uri: bb_bench_press
 guid: a8e0bf51-8e5e-45fc-b79a-7566fe6f1a85
-image: bb_bench_press.webp
+image_url: https://raw.githubusercontent.com/Faucett-GmbH/exdb_data/refs/heads/master/data/exercises/images/bb_bench_press.webp
 execution: WEIGHT_REPS
-thumbnail_image: bb_bench_press_250x250.jpg
+thumbnail_image_url: https://raw.githubusercontent.com/Faucett-GmbH/exdb_data/refs/heads/master/data/exercises/images/bb_bench_press_250x250.jpg
 translations:
   - name: Barbell Bench Press
     uri: bb-bench-press
     guid: 2c5a3958-e67c-49a2-a418-a8dc20cf03ff
     locale: en
     alternative_names: []
-    video_url: ""
+    video_url: null
     summary: |
       The Barbell Bench Press is a compound upper-body exercise that primarily targets the chest, while also working the shoulders and triceps. It's a cornerstone movement for building pressing strength and muscle mass in the upper body.
     description: |
@@ -29,7 +29,7 @@ translations:
     guid: 55be2a99-f528-481e-9bd4-2b1b3ccb4f23
     locale: de
     alternative_names: []
-    video_url: ""
+    video_url: null
     summary: |
       Das Langhantel Bankdrücken ist eine zusammengesetzte Übung für den Oberkörper, die vorwiegend die Brustmuskulatur trainiert und gleichzeitig Schultern und Trizeps beansprucht. Es ist eine grundlegende Bewegung zum Aufbau von Drückkraft und Muskelmasse im Oberkörper.
     description: |
@@ -48,7 +48,7 @@ translations:
     guid: a0c7831f-e9c1-485e-b09a-ecbc6930c661
     locale: es
     alternative_names: []
-    video_url: ""
+    video_url: null
     summary: |
       El press de banca con barra es un ejercicio compuesto para la parte superior del cuerpo que se centra principalmente en el pecho, al mismo tiempo que trabaja los hombros y tríceps. Es un movimiento fundamental para desarrollar la fuerza de empuje y la masa muscular en la parte superior del cuerpo.
     description: |
