@@ -2,3 +2,11 @@
 # os relics
 .DS_Store
 tmp/
+*.py[oc]
+__pycache__/
+.mypy_cache/
+dist/
+
+# generated files
+exercises.json
+schemas.ts

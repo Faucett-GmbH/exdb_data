@@ -1,8 +1,8 @@
 ---
 uri: bb_overhead_squat
 guid: 580ef677-f1bd-4c1f-8a3e-fbd50c21450a
-image: ""
-thumbnail_image: ""
+image_url: null
+thumbnail_image_url: null
 execution: WEIGHT_REPS
 translations:
   - name: Barbell Overhead Squat
@@ -11,7 +11,7 @@ translations:
     locale: en
     alternative_names:
       - overhead squat
-    video_url: ""
+    video_url: null
     summary: |
       A full-body squat variation that demands mobility, stability, and control. The bar is held overhead while squatting deep, building strength, balance, and coordination.
     description: |

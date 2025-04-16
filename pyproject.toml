@@ -1,0 +1,25 @@
+[project]
+name = "exdb-data"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [{ name = "John Faucett", email = "jsfaucett87@icloud.com" }]
+requires-python = ">=3.11"
+dependencies = [
+    "click>=8.1.8",
+    "duckdb>=1.2.2",
+    "owlready2>=0.47",
+    "pydantic-to-typescript>=2.0.0",
+    "pydantic>=2.11.3",
+    "pydantic-settings>=2.8.1",
+    "pyyaml>=6.0.2",
+    "rich>=14.0.0",
+]
+
+[project.scripts]
+exdb-data = "exdb_data:main"
+cli = "exdb_data.cli.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

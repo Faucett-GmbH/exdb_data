@@ -1,8 +1,8 @@
 ---
 uri: snatch
 guid: 476508f1-79e6-4ad2-bf88-a92c21be92a4
-image: ""
-thumbnail_image: ""
+image_url: null
+thumbnail_image_url: null
 execution: WEIGHT_REPS
 translations:
   - name: Snatch
@@ -10,7 +10,7 @@ translations:
     guid: 9ea660a4-4151-4725-b68e-7fef50a2a016
     locale: en
     alternative_names: []
-    video_url: ""
+    video_url: null
     summary: |
       The king of speed and precision. Rip the bar from the floor, punch it overhead in one fluid motion. Full-body explosion—hips, legs, back, shoulders, and arms all firing. Master it, and you’ll move like an athlete and lift like a beast.
     description: |

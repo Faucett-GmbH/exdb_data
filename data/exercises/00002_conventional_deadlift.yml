@@ -1,8 +1,8 @@
 ---
 uri: conventional_deadlift
 guid: a39988f4-d1ad-436d-aa91-6b90d32f270d
-image: ""
-thumbnail_image: ""
+image_url: null
+thumbnail_image_url: null
 execution: WEIGHT_REPS
 translations:
   - name: Conventional Deadlift
@@ -11,7 +11,7 @@ translations:
     locale: en
     alternative_names:
       - Deadlift
-    video_url: ""
+    video_url: null
     summary: |
       The deadlift is the ultimate test of raw strength—pick up a heavy barbell from the floor and stand up. It builds posterior chain power, grip, and total-body strength. Set up properly, brace hard, and drive through the legs. The bar moves when you do everything right.
     description: |

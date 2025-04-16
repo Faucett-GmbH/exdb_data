@@ -1,8 +1,8 @@
 ---
 uri: bb_lunge
 guid: a598ffe5-072e-422f-9019-a025157e6ac0
-image: bb_lunge.webp
-thumbnail_image: ""
+image_url: https://raw.githubusercontent.com/Faucett-GmbH/exdb_data/refs/heads/master/data/exercises/images/bb_lunge.webp
+thumbnail_image_url: null
 execution: WEIGHT_REPS
 translations:
   - name: Barbell Lunge
@@ -11,7 +11,7 @@ translations:
     locale: en
     alternative_names:
       - lunge
-    video_url: ""
+    video_url: null
     summary: |
       A unilateral leg exercise that builds strength, balance, and coordination. Load a barbell on your back, step forward, lower under control, and drive back up. It hammers the quads, glutes, and hamstrings while exposing any weakness between legs.
     description: |

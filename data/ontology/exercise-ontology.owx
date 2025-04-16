@@ -3064,6 +3064,11 @@
         <Literal>b31de798-685a-4ffe-96d7-c71fad03d7ea</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#quadriceps-femoris</IRI>
+        <Literal xml:lang="de">Quadrizeps femoris</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#guid"/>
         <IRI>#rack</IRI>
         <Literal>478b084c-7d0f-4327-8667-b128858a1664</Literal>
