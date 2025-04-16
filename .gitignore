@@ -5,3 +5,6 @@ tmp/
 *.py[oc]
 __pycache__/
 .mypy_cache/
+
+# generated files
+exercises.json

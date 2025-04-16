@@ -1,8 +1,8 @@
 ---
 uri: high_bar_squat
 guid: 0258b3f2-0e93-445e-85fc-6bc545006d29
-image: high_bar_squat.webp
-thumbnail_image: high_bar_squat_200x200.webp
+image_url: https://raw.githubusercontent.com/Faucett-GmbH/exdb_data/refs/heads/master/data/exercises/images/high_bar_squat.webp
+thumbnail_image_url: https://raw.githubusercontent.com/Faucett-GmbH/exdb_data/refs/heads/master/data/exercises/images/high_bar_squat_200x200.webp
 execution: WEIGHT_REPS
 translations:
   - name: High Bar Barbell Squat
@@ -11,7 +11,7 @@ translations:
     locale: en
     alternative_names:
       - high bar squat
-    video_url: ""
+    video_url: null
     summary: |
       The high bar squat is the foundation of leg strength. Bar sits high on the traps, torso stays upright, knees track forward. Squat deep, drive up hard. This builds quads, glutes, and back strength while reinforcing solid squat mechanics.
     description: |

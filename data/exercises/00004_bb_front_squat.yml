@@ -1,8 +1,8 @@
 ---
 uri: bb_front_squat
 guid: 9f15d4dc-4728-4686-a273-1bb9aebe7c24
-image: ""
-thumbnail_image: ""
+image_url: null
+thumbnail_image_url: null
 execution: WEIGHT_REPS
 translations:
   - name: Barbell Front Squat
@@ -11,7 +11,7 @@ translations:
     locale: en
     alternative_names:
       - front squat
-    video_url: ""
+    video_url: null
     summary: |
       A squat variation where the barbell rests on the front delts, demanding an upright torso and core stability. Builds quads, upper back, and midline strength while reinforcing proper squat mechanics.
     description: |

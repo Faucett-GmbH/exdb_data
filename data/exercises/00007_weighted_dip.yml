@@ -1,8 +1,8 @@
 ---
 uri: weighted_dip
 guid: cdf7d3d4-2c98-41ba-b0b5-c806b55e5683
-image: ""
-thumbnail_image: ""
+image_url: null
+thumbnail_image_url: null
 execution: WEIGHT_REPS
 translations:
   - name: Weighted Dip
@@ -11,7 +11,7 @@ translations:
     locale: en
     alternative_names:
       - dip
-    video_url: ""
+    video_url: null
     summary: |
       A brutal upper-body builder. Strap on weight, grab parallel bars, lower under control, then drive back up. Hits the chest, shoulders, and triceps hard. If you want serious pressing power and mass, dips need to be in your arsenal.
     description: |

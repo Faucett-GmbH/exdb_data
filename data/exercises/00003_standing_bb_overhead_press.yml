@@ -1,8 +1,8 @@
 ---
 uri: standing_bb_overhead_press
 guid: 20c458cc-2660-4fee-a208-01662762bdaf
-image: ""
-thumbnail_image: ""
+image_url: null
+thumbnail_image_url: null
 execution: WEIGHT_REPS
 translations:
   - name: Standing Barbell Overhead Press
@@ -13,7 +13,7 @@ translations:
       - strict overhead press
       - overhead press
       - standing military press
-    video_url: ""
+    video_url: null
     summary: |
       The standing barbell overhead press is the king of upper body strength. It builds pressing power, shoulder stability, and full-body coordination. No bench, no support—just you, the bar, and gravity. If you can press heavy standing, you're strong.
     description: |
