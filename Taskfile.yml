@@ -12,6 +12,10 @@ tasks:
     cmds:
       - pnpm install -g json-schema-to-typescript
 
+  export-exercises:
+    cmds:
+      - uv run cli exercises export-json
+
   export-ts:
     cmds:
       - uv run pydantic2ts --module exdb_data.schemas --output schemas.ts

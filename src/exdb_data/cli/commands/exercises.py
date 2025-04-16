@@ -22,7 +22,7 @@ def validate_cmd(filepath: str) -> None:
 
 @exercises_group.command(name="export-json")
 @click.argument('output_filepath', required=False)
-def export_ts(output_filepath: str | None) -> None:
+def export_json(output_filepath: str | None) -> None:
     if not output_filepath:
        output_filepath = "exercises.json"
     exercises = read_all_exercises()
@@ -30,7 +30,6 @@ def export_ts(output_filepath: str | None) -> None:
 
     # check for validity
     exported_exercises = read_exported_exercises_json(output_filepath)
-    print(exported_exercises)
 
     assert len(exported_exercises) == len(exercises)
 
