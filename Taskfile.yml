@@ -1,0 +1,17 @@
+version: "3"
+
+env:
+  APP_ENV: '{{default "dev" .APP_ENV}}'
+  API_VERSION: '{{default "0.1.0" .API_VERSION}}'
+  UI_VERSION: '{{default "0.1.0" .UI_VERSION}}'
+
+dotenv: [".env.{{.APP_ENV}}", ".env"]
+
+tasks:
+  deps:
+    cmds:
+      - pnpm install -g json-schema-to-typescript
+
+  export-ts:
+    cmds:
+      - uv run pydantic2ts --module exdb_data.schemas --output schemas.ts

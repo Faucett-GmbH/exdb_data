@@ -73,6 +73,7 @@ dependencies = [
     { name = "owlready2" },
     { name = "pydantic" },
     { name = "pydantic-settings" },
+    { name = "pydantic-to-typescript" },
     { name = "pyyaml" },
     { name = "rich" },
 ]
@@ -84,6 +85,7 @@ requires-dist = [
     { name = "owlready2", specifier = ">=0.47" },
     { name = "pydantic", specifier = ">=2.11.3" },
     { name = "pydantic-settings", specifier = ">=2.8.1" },
+    { name = "pydantic-to-typescript", specifier = ">=2.0.0" },
     { name = "pyyaml", specifier = ">=6.0.2" },
     { name = "rich", specifier = ">=14.0.0" },
 ]
@@ -206,6 +208,18 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/88/82/c79424d7d8c29b994fb01d277da57b0a9b09cc03c3ff875f9bd8a86b2145/pydantic_settings-2.8.1.tar.gz", hash = "sha256:d5c663dfbe9db9d5e1c646b2e161da12f0d734d422ee56f567d0ea2cee4e8585", size = 83550 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/0b/53/a64f03044927dc47aafe029c42a5b7aabc38dfb813475e0e1bf71c4a59d0/pydantic_settings-2.8.1-py3-none-any.whl", hash = "sha256:81942d5ac3d905f7f3ee1a70df5dfb62d5569c12f51a5a647defc1c3d9ee2e9c", size = 30839 },
+]
+
+[[package]]
+name = "pydantic-to-typescript"
+version = "2.0.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pydantic" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/59/ac/8dc13be6720267b5edffb3b0d8c1abdcccc5743d7bda4257ab0a5dccc7b9/pydantic_to_typescript-2.0.0.tar.gz", hash = "sha256:06e92e8d10759ffebe3abdd4de14015bbf80809fa9960273be6041d8509662be", size = 35484 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/c3/9c/f51312f3063a8b6e1e09e6527a81d3b1828ad5fc8a65c14376f85cf65502/pydantic_to_typescript-2.0.0-py3-none-any.whl", hash = "sha256:5bc5e1a940c1a39e4e3a6124bd3bda1b0fc6df85c673a4781b94a1f4150cae15", size = 9693 },
 ]
 
 [[package]]
