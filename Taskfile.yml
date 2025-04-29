@@ -10,7 +10,7 @@ dotenv: [".env.{{.APP_ENV}}", ".env"]
 tasks:
   deps:
     cmds:
-      - pnpm install
+      - pnpm install --global
 
   export-exercises:
     cmds:
