@@ -10,7 +10,7 @@ dotenv: [".env.{{.APP_ENV}}", ".env"]
 tasks:
   deps:
     cmds:
-      - pnpm install --global
+      - npm install -g json-schema-to-typescript
 
   export-exercises:
     cmds:
