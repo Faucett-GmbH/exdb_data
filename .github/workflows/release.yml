@@ -39,7 +39,12 @@ jobs:
       - name: Set up Node.js (or your runtime if needed for taskfile)
         uses: actions/setup-node@v4
         with:
-          node-version: 22 # or whatever version you require
+          node-version: 22
+          cache: "pnpm"
+
+      - name: Install pnpm
+        run: |
+          npm install -g pnpm
 
       - name: Install task
         run: |
