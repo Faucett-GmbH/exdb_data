@@ -8,10 +8,6 @@ env:
 dotenv: [".env.{{.APP_ENV}}", ".env"]
 
 tasks:
-  deps:
-    cmds:
-      - pnpm install -g json-schema-to-typescript
-
   export-exercises:
     cmds:
       - uv run cli exercises export-json
