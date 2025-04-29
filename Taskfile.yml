@@ -8,6 +8,10 @@ env:
 dotenv: [".env.{{.APP_ENV}}", ".env"]
 
 tasks:
+  deps:
+    cmds:
+      - pnpm install
+
   export-exercises:
     cmds:
       - uv run cli exercises export-json
