@@ -12,9 +12,20 @@ URIString = Annotated[
 
 LocaleString = Literal["en", "de", "es"]
 
+ExecutionType = Literal[
+    "WEIGHT_REPS",
+    "REPS_ONLY",
+    "DURATION",
+    "WEIGHT_DURATION",
+    "DISTANCE_DURATION",
+    "DISTANCE",
+    "WEIGHT_DISTANCE"
+]
+
 class Exercise(BaseModel):
     guid: UUID
     uri: URIString
+    execution: ExecutionType
     image_url: Optional[HttpUrl]
     thumbnail_image_url: Optional[HttpUrl]
     translations: list[ExerciseTranslation]
