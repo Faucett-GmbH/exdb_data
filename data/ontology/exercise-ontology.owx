@@ -736,6 +736,9 @@
         <NamedIndividual IRI="#vertical-axis"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#weighted-chin-up"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#weighted-dip"/>
     </Declaration>
     <Declaration>
@@ -1615,6 +1618,10 @@
     <ClassAssertion>
         <Class IRI="#MovementAxis"/>
         <NamedIndividual IRI="#vertical-axis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Exercise"/>
+        <NamedIndividual IRI="#weighted-chin-up"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Exercise"/>
@@ -2656,6 +2663,11 @@
         <ObjectProperty IRI="#hasHead"/>
         <NamedIndividual IRI="#triceps-brachii"/>
         <NamedIndividual IRI="#triceps-brachii-medial-head"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovementPattern"/>
+        <NamedIndividual IRI="#weighted-chin-up"/>
+        <NamedIndividual IRI="#downward-pull-movement"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasMovementPattern"/>

@@ -12,6 +12,10 @@ tasks:
     cmds:
       - npm install -g json-schema-to-typescript
 
+  genid:
+    cmds:
+      - uv run cli exercises generate-uuid
+
   export-exercises:
     cmds:
       - uv run cli exercises export-json
