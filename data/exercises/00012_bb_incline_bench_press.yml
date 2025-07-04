@@ -1,0 +1,29 @@
+---
+uri: bb-incline-bench-press
+guid: 5d932652-7d2c-47d8-8bc5-5735196e472a
+image_url: https://raw.githubusercontent.com/Faucett-GmbH/exdb_data/refs/heads/master/data/exercises/images/bb_incline_bench_press.png
+thumbnail_image_url: null
+execution: WEIGHT_REPS
+translations:
+  - name: BB Incline Bench Press
+    uri: bb-incline-bench-press
+    guid: b6a535ef-8408-426c-91c3-3852679a7d1d
+    locale: en
+    alternative_names: []
+    video_url: null
+    summary: |
+      A barbell pressing movement done on an incline bench. Emphasizes upper chest and shoulders. Builds pressing strength with precision.
+    description: |
+      The Incline Barbell Bench Press targets the upper pectorals, front delts, and triceps. The incline angle shifts emphasis from the mid-chest to the clavicular head of the pectorals. It’s a key builder for upper-body mass and pressing power. By adjusting the bench to a 30–45° angle and pressing the barbell from the upper chest, you develop real-world strength and size. It’s not a flat bench—don’t treat it like one. Controlled descent, powerful drive. No ego lifting.
+    instructions: |
+      1. Set a bench to a 30–45° incline inside a power rack.
+      2. Load the barbell and lie back with feet flat on the floor.
+      3. Grip the bar just outside shoulder width.
+      4. Unrack the bar and hold it over your upper chest.
+      5. Lower the bar in a controlled path to just below the collarbone.
+      6. Keep wrists straight, elbows slightly tucked—not flared.
+      7. Drive the bar upward, pressing through the palms until arms are locked out.
+      8. Reset and repeat for desired reps. Rack with control.
+    tips:
+      - Elbows should track under the bar, not wing out wide.
+      - Pinch your shoulder blades and keep your back tight.

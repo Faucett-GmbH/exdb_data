@@ -1,0 +1,30 @@
+---
+uri: bb-seated-overhead-press
+guid: 986a529f-bfaf-4c62-bb2e-f0d9857f356d
+image_url: https://raw.githubusercontent.com/Faucett-GmbH/exdb_data/refs/heads/master/data/exercises/images/bb_seated_ohp.png
+thumbnail_image_url: null
+execution: WEIGHT_REPS
+translations:
+  - name: BB Seated Overhead Press
+    uri: bb-seated-overhead-press
+    guid: c32c301a-3f8d-4196-9e34-176e9d3d2fea
+    locale: en
+    alternative_names: []
+    video_url: null
+    summary: |
+      A vertical press performed seated with a barbell. Builds shoulder strength, upper chest, and triceps while limiting lower-body involvement.
+    description: |
+      The Barbell Seated Overhead Press isolates upper-body pressing power. With hips anchored and lower-body drive removed, your shoulders, upper chest, and triceps do the work. A strict test of raw pressing strength. The bar travels from clavicle to overhead in a straight line. No leg help, no back arching, no excuses. If the standing press is a test of full-body power, the seated version is pure upper-body punishment.
+    instructions: |
+      1. Sit on a bench with an upright back support inside a power rack.
+      2. Set the barbell at shoulder height and load appropriately.
+      3. Grip the bar just outside shoulder-width. Feet flat on the ground.
+      4. Unrack the bar and hold it at clavicle level with wrists stacked over elbows.
+      5. Brace your core and press the bar straight up until arms lock overhead.
+      6. Lower the bar under control to your upper chest.
+      7. Keep your torso vertical—no leaning back or shrugging.
+      8. Repeat for reps. Rack with control.
+    tips:
+      - Keep your glutes and abs tight. Don’t let your lower back arch.
+      - Use a false (thumbless) grip only if experienced.
+      - Lock out hard—don’t short the top.
