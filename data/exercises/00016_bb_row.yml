@@ -1,0 +1,28 @@
+---
+uri: bb-row
+guid: 8574cae6-c216-47fa-8bb6-ae26099c81c8
+image_url: https://raw.githubusercontent.com/Faucett-GmbH/exdb_data/refs/heads/master/data/exercises/images/bb_row.png
+thumbnail_image_url: null
+execution: WEIGHT_REPS
+translations:
+  - name: Barbell Row
+    uri: bb-row
+    guid: b1e07767-f045-4c20-a64d-c8aca85cba2f
+    locale: en
+    alternative_names:
+      - barbell bent-over row
+    video_url: null
+    summary: |
+      A compound back exercise where you row the barbell to your torso from a hinged, bent-over position, training the lats, traps, and spinal erectors.
+    description: |
+      The barbell bent-over row is brutal and beautiful. It builds a thick back, steel traps, and a grip like a vise. You hinge at the hips, set your spine, and row the bar with controlled power up to your belly button. It’s a foundational pulling movement and a forgotten cousin of the deadlift. If you cheat it, you’ll get nothing. If you own it, you’ll grow.
+    instructions: |
+      1. Setup: Stand with feet hip-width, grip the barbell just outside your knees, overhand or underhand.
+      2. Hinge: Bend at the hips, slight knee bend. Torso nearly parallel to the ground. Back locked in.
+      3. Start Position: Bar hanging just below the knees. Arms extended. Shoulders packed.
+      4. Pull: Row the bar to the lower ribs or upper abs. Elbows drive back and up.
+      5. Lower: Lower the bar under control to full extension. Repeat.
+    tips:
+      - Strict form first. Cheat rows are earned, not default.
+      - Keep your torso still and avoid excessive jerking.
+      - Use straps if grip fails before the back.

@@ -1,0 +1,32 @@
+---
+uri: bb_rdl
+guid: e049e48e-2d7b-4272-90d4-93d241b1e2c4
+image_url: https://raw.githubusercontent.com/Faucett-GmbH/exdb_data/refs/heads/master/data/exercises/images/bb_rdl.png
+thumbnail_image_url: null
+execution: WEIGHT_REPS
+translations:
+  - name: Barbell Romanian Deadlift
+    uri: barbell-romanian-deadlift
+    guid: 28354268-575a-4f16-9a56-c823e846cc13
+    locale: en
+    alternative_names:
+      - RDL
+      - Stiff-Legged Deadlift
+      - Straight-Legged Deadlift
+      - SLDL
+    video_url: null
+    summary: |
+      The Romanian deadlift is a hip-hinge movement that targets the hamstrings, glutes, and posterior chain using a controlled eccentric and minimal knee bend.
+    description: |
+      The RDL is the hinge that humbles lifters. It punishes ego and rewards control. With soft knees and a locked-in back, you push the hips back until the hamstrings scream. Then you stand tall — like nothing happened. This lift isn’t about yanking big plates. It’s about building the back-end engine that powers everything from the clean to the jump.
+    instructions: |
+      1. Setup: Stand with feet hip-width, bar in hands with overhand or mixed grip. Start from the top.
+      2. Brace: Squeeze the lats. Lock the back. Slight bend in the knees.
+      3. Hinge: Push hips back. Let the bar slide down your thighs. Keep it close.
+      4. Descent: Lower until you feel a strong hamstring stretch — usually just below the knees.
+      5. Stop: Don’t let your spine round. Range of motion ends where tightness begins.
+      6. Ascent: Drive hips forward and stand tall. Don’t let knees shoot forward.
+    tips:
+      - This is not a squat. Hips go back, not down.
+      - Control the eccentric.
+      - Use straps if grip limits load.
