@@ -16,6 +16,10 @@ tasks:
     cmds:
       - uv run cli exercises generate-uuid
 
+  search:
+    cmds:
+      - uv run cli exercises search {{.CLI_ARGS}}
+
   export-exercises:
     cmds:
       - uv run cli exercises export-json

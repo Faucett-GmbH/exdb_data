@@ -19,8 +19,9 @@ ExecutionType = Literal[
     "WEIGHT_DURATION",
     "DISTANCE_DURATION",
     "DISTANCE",
-    "WEIGHT_DISTANCE"
+    "WEIGHT_DISTANCE",
 ]
+
 
 class Exercise(BaseModel):
     guid: UUID
@@ -43,11 +44,10 @@ class ExerciseTranslation(BaseModel):
     # metadata
     metadata_keywords: list[str] = Field(default=[])
     metadata_authors: list[str] = Field(default=[])
-    
+
     # information
     video_url: HttpUrl | None = None
     description: str
     summary: str
     instructions: str
     tips: list[str] = []
-    
