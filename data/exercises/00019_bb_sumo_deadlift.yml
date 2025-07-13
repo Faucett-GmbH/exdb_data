@@ -1,0 +1,28 @@
+---
+uri: bb_sumo_deadlift
+guid: 7b7cd5a5-0785-4f97-b298-73181496c291
+image_url: null
+thumbnail_image_url: null
+execution: WEIGHT_REPS
+translations:
+  - name: Barbell Sumo Deadlift
+    uri: barbell-sumo-deadlift
+    guid: 2209bfa4-5e75-4b83-ae41-1ac77cf9deb3
+    locale: en
+    alternative_names: []
+    video_url: null
+    summary: |
+      The sumo deadlift is a deadlift variation using a wide stance and narrow grip to shorten the pull, emphasizing the quads, hips, and adductors.
+    description: |
+      The sumo deadlift is a wide-stance, hips-down approach to moving heavy iron. It's not just a deadlift with your legs spread — it's a unique lift that hammers the hips, adductors, and quads. The bar travels less distance, but demands pristine positioning and serious patience off the floor. It rewards leverage and punishes ego.
+    instructions: |
+      1. Setup: Feet wide, toes slightly out. Shins close to the bar. Hands grip narrow, inside the knees.
+      2. Brace: Chest up, back tight, hips lower than in conventional deadlift.
+      3. Pull: Push the floor apart with your feet. Hips and chest rise together.
+      4. Lockout: Stand tall, hips through, shoulders back — no hyperextension.
+      5. Descent: Hinge at hips, then bend knees once the bar passes them.
+      6. Reset: Get tight again for each rep. Don’t get sloppy.
+    tips:
+      - Think of spreading the floor apart — not just standing up.
+      - Keep shins vertical and back flat.
+      - Great for lifters with long torsos or weak hips.

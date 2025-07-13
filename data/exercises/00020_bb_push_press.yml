@@ -1,0 +1,28 @@
+---
+uri: bb_push_press
+guid: 20c5626e-511a-494c-9ee7-ce8f7c5647c2
+image_url: null
+thumbnail_image_url: null
+execution: WEIGHT_REPS
+translations:
+  - name: Push Press
+    uri: bb-push-press
+    guid: fe254211-e760-4b30-bd16-9a87e3cf4b21
+    locale: en
+    alternative_names: []
+    video_url: null
+    summary: |
+      The barbell push press uses leg drive to propel the barbell overhead, combining lower body power with upper body pressing strength.
+    description: |
+      The push press is the bridge between raw press strength and explosive power. You dip, drive, and punch the bar overhead with authority. It’s not a strict press — it’s a violence-assisted press. Useful for lifters needing to overload the press, build shoulder and tricep power, and translate leg force into upper body action. If it’s slow, you’re doing it wrong.
+    instructions: |
+      1. Setup: Barbell on front rack. Hands just outside shoulders. Elbows slightly forward.
+      2. Brace: Full body tight. Core locked down.
+      3. Dip: Quick, controlled dip by bending knees and hips slightly — torso vertical.
+      4. Drive: Explosively extend knees and hips to launch the bar upward.
+      5. Press: As bar clears the head, press it to full arm extension overhead.
+      6. Catch and Reset: Control the bar back to the rack. Repeat.
+    tips:
+      - It’s not a squat. The dip is short and sharp.
+      - Bar path stays vertical. No looping the bar forward.
+      - Use heavier loads than strict press, but don’t turn it into a jerk.

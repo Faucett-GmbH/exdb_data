@@ -4,12 +4,12 @@
 - [X] Back Squat
 - [X] Front Squat
 - [X] Deadlift (Conventional)
-- [ ] Deadlift (Sumo)
+- [X] Deadlift (Sumo)
 - [X] Bench Press (Flat)
 - [X] Standing Overhead Press (Strict Press)
 - [X] Barbell Row (Bent-Over Row)
-- [ ] Push Press
-- [ ] Power Clean
+- [X] Push Press
+- [X] Power Clean
 - [X] Power Snatch
 
 ## 🥇 Olympic Weightlifting Lifts & Variations
