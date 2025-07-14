@@ -16,9 +16,9 @@
 - [X] Snatch (Full)
 - [X] Clean (Full)
 - [X] Split Jerk
-- [ ] Clean & Jerk
+- [X] Clean & Jerk
 - [X] Hang Snatch
-- [ ] Hang Clean
+- [X] Hang Clean
 - [ ] Snatch Pull
 - [ ] Clean Pull
 - [X] Overhead Squat
