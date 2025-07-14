@@ -1,0 +1,29 @@
+guid: b41cd36f-e8ab-4a0c-a7d3-72788f848ff0
+uri: bb_squat_jump
+execution: WEIGHT_REPS
+image_url: https://raw.githubusercontent.com/Faucett-GmbH/exdb_data/refs/heads/master/data/exercises/images/bb_squat_jump.png
+thumbnail_image_url: null
+translations:
+  - guid: 6873c37b-f510-4469-9e2c-52ad38e855d2
+    locale: en
+    uri: bb_squat_jump
+    name: Barbell Squat Jump
+    alternative_names: []
+    metadata_keywords: []
+    metadata_authors: []
+    video_url: null
+    description: |
+      The squat jump with a barbell is a raw power movement. You load the bar lightly, dip into a squat, and launch yourself off the ground like you’re escaping Earth’s gravity. It’s simple, violent, and effective. This isn’t a grind — it’s a ballistic attack on slow legs. Controlled landing is essential, or your knees will pay rent to regret.
+    summary: |
+      The barbell squat jump is an explosive lower-body exercise where you squat and jump vertically with a barbell on your back to develop power and speed.
+    instructions: |
+      1. Setup: Barbell on traps, light load. Feet shoulder-width.
+      2. Brace: Engage the core. Stay tight.
+      3. Descend: Quick, shallow squat — about a quarter to half squat depth.
+      4. Explode: Drive through the floor and jump as high as possible.
+      5. Land: Land softly, absorbing impact with hips and knees.
+      6. Reset: Re-establish tightness and repeat.
+    tips:
+      - Use at most 20–30% of squat max. It’s for speed, not weight.
+      - Don’t let the knees cave in — stay aligned.
+      - Do low reps, full rest. Quality > quantity.
