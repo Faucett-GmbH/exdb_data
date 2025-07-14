@@ -16,6 +16,13 @@ tasks:
     cmds:
       - uv run cli exercises generate-uuid
 
+  create:
+    vars:
+      URI: "{{.URI}}"
+      NAME: "{{.NAME}}"
+    cmds:
+      - uv run cli exercises create --uri {{.URI}} --name {{.NAME}}
+
   search:
     cmds:
       - uv run cli exercises search -- {{.CLI_ARGS}}
