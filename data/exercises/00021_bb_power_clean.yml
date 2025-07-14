@@ -1,7 +1,7 @@
 ---
 uri: bb_power_clean
 guid: 6f011828-845e-470a-93f2-7dba7f0e031a
-image_url: null
+image_url: https://raw.githubusercontent.com/Faucett-GmbH/exdb_data/refs/heads/master/data/exercises/images/bb_power_clean.png
 thumbnail_image_url: null
 execution: WEIGHT_REPS
 translations:

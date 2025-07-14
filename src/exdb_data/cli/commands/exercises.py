@@ -1,7 +1,9 @@
 import click
 import uuid
 
+from exdb_data.schemas import ExecutionType, ExecutionTypeChoices
 from exdb_data.services import (
+    create_exercise_yaml,
     get_exercise,
     export_exercises_to_json,
     pp_short_exercise,
@@ -40,6 +42,23 @@ def generate_uuid():
 def validate_cmd(filepath: str) -> None:
     ex = get_exercise(filepath)
     console.print(ex)
+
+
+@exercises_group.command(name="create")
+@click.option("--uri", type=str, required=True)
+@click.option("--name", type=str, required=True)
+@click.option(
+    "--execution-type",
+    type=click.Choice(ExecutionTypeChoices),
+    default="WEIGHT_REPS",
+    required=False,
+)
+@click.option("--test", type=bool, required=False, default=False)
+def create_new_exercise_cmd(
+    uri: str, name: str, execution_type: ExecutionType, test
+) -> None:
+    output_path = create_exercise_yaml(uri, name, execution_type, test)
+    console.print(f"created at: {output_path}")
 
 
 @exercises_group.command(name="search")

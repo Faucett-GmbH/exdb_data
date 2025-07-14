@@ -15,7 +15,7 @@
 ## 🥇 Olympic Weightlifting Lifts & Variations
 - [X] Snatch (Full)
 - [X] Clean (Full)
-- [ ] Jerk (Split or Power)
+- [X] Split Jerk
 - [ ] Clean & Jerk
 - [X] Hang Snatch
 - [ ] Hang Clean

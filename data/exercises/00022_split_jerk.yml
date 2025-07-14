@@ -1,0 +1,30 @@
+guid: 79ae4bc5-c9fc-4cb2-856f-1e41811acced
+uri: split_jerk
+execution: WEIGHT_REPS
+image_url: https://raw.githubusercontent.com/Faucett-GmbH/exdb_data/refs/heads/master/data/exercises/images/split_jerk.png
+thumbnail_image_url: null
+translations:
+  - guid: 34808407-8da7-4147-b4e9-cb844ccbe6e2
+    locale: en
+    uri: split_jerk
+    name: Split Jerk
+    alternative_names: []
+    metadata_keywords: []
+    metadata_authors: []
+    video_url: null
+    description: |
+      The split jerk is the king of putting heavy things overhead. You dip, drive, and punch the bar skyward, then split your feet to catch it in a stable lunge position. It’s violent, technical, and unforgiving. This is not just pressing — it’s launching the bar like a missile and diving under it with precision. Every rep is a battle between gravity and your timing.
+    summary: |
+      The split jerk is an explosive overhead lift where the barbell is driven up and caught overhead in a split stance, maximizing load and stability.
+    instructions: |
+      1. Setup: Barbell in front rack. Hands just outside shoulders. Feet hip-width.
+      2. Dip: Short, vertical dip — knees bend slightly while torso stays upright.
+      3. Drive: Explosively extend hips, knees, and ankles to launch the bar up.
+      4. Split: As bar rises, split the legs — front foot forward, back foot back. Punch arms overhead.
+      5. Catch: Bar locked out directly over the spine. Hips and shoulders square.
+      6. Recover: Front foot back halfway, then back foot forward. Stand fully upright with control.
+    tips:
+      - Punch the bar through. Don’t just press — accelerate.
+      - Split should be balanced: 90-degree angles front and back.
+      - Practice footwork separately before loading heavy.
+      - The jerk is a skill — warm up with precision before adding plates.

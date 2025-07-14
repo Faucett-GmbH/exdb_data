@@ -1,4 +1,5 @@
 from __future__ import annotations
+import enum
 from uuid import UUID
 from pydantic import BaseModel, Field, HttpUrl, field_validator
 from typing import Annotated, Literal, Optional
@@ -13,6 +14,16 @@ URIString = Annotated[
 LocaleString = Literal["en", "de", "es"]
 
 ExecutionType = Literal[
+    "WEIGHT_REPS",
+    "REPS_ONLY",
+    "DURATION",
+    "WEIGHT_DURATION",
+    "DISTANCE_DURATION",
+    "DISTANCE",
+    "WEIGHT_DISTANCE",
+]
+
+ExecutionTypeChoices = [
     "WEIGHT_REPS",
     "REPS_ONLY",
     "DURATION",
