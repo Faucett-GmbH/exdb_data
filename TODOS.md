@@ -19,10 +19,10 @@
 - [X] Clean & Jerk
 - [X] Hang Snatch
 - [X] Hang Clean
-- [ ] Snatch Pull
-- [ ] Clean Pull
+- [X] Snatch Pull
+- [X] Clean Pull
 - [X] Overhead Squat
-- [ ] Snatch Balance
+- [X] Snatch Balance
 
 ## 💪 Hypertrophy & Bodybuilding Staples
 - [ ] Barbell Curl

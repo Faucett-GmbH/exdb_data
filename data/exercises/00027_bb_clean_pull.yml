@@ -1,0 +1,31 @@
+guid: c910499e-f884-4f25-8f12-7b31ee6101e4
+uri: bb_clean_pull
+execution: WEIGHT_REPS
+image_url: https://raw.githubusercontent.com/Faucett-GmbH/exdb_data/refs/heads/master/data/exercises/images/bb_clean_pull.png
+thumbnail_image_url: null
+translations:
+  - guid: b058d1ec-c5c5-4435-a033-6a5bde64a442
+    locale: en
+    uri: bb_clean_pull
+    name: Barbell Clean Pull
+    alternative_names: []
+    metadata_keywords: []
+    metadata_authors: []
+    video_url: null
+    description: |
+      The clean pull is the clean’s savage cousin — all pull, no catch. You rip the bar from the floor, explode into triple extension, and shrug like you’re trying to hit your ears. It teaches commitment to the pull, builds a brutal posterior chain, and lets you go heavier than a full clean. If you stop short, you’ll stay weak. Pull like you mean it.
+    summary: |
+      The barbell clean pull builds explosive power by mimicking the clean’s pulling phases without the catch, emphasizing full-body strength and speed.
+    instructions: |
+      1. **Setup**: Feet hip-width, grip just outside shoulders, bar over midfoot.
+      2. **First Pull**: Push the floor away, bar passes knees with chest over bar.
+      3. **Transition**: Re-bend knees, hips come forward slightly.
+      4. **Second Pull**: Explode with hips, knees, and ankles. Bar stays close.
+      5. **Shrug**: Pull the shoulders high. Elbows guide the bar up.
+      6. **Finish**: Stand tall after the pull, then reset.
+      7. **Lower**: Control the bar back to the floor.
+    tips:
+      - Finish the extension. Hips must open fully before shrug.
+      - Use straps for heavy sets to protect the grip.
+      - Don’t turn it into a deadlift. Stay quick and aggressive.
+      - Great for developing strength above clean 1RM.

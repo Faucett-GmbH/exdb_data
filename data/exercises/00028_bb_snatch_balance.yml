@@ -1,0 +1,31 @@
+guid: 1372478e-cb16-4ee2-aa5e-6649b73d0524
+uri: bb_snatch_balance
+execution: WEIGHT_REPS
+image_url: https://raw.githubusercontent.com/Faucett-GmbH/exdb_data/refs/heads/master/data/exercises/images/bb_snatch_balance.png
+thumbnail_image_url: null
+translations:
+  - guid: 00d8f3a6-53ce-4a80-bf28-47a5d29a61d4
+    locale: en
+    uri: bb_snatch_balance
+    name: Barbell Snatch Balance
+    alternative_names: []
+    metadata_keywords: []
+    metadata_authors: []
+    video_url: null
+    description: |
+      The snatch balance is the drill that separates lifters who catch high from those who catch right. With the bar on your back, you dip and drive to launch the bar — while simultaneously diving into the bottom snatch position. If you hesitate, the lift fails. It sharpens overhead mobility, speed under the bar, and positional confidence. This isn’t a press — it’s a commitment.
+    summary: |
+      The snatch balance develops speed, precision, and confidence by driving the barbell overhead while dropping into a full snatch squat.
+    instructions: |
+      1. **Setup**: Bar on traps, snatch grip, feet hip-width.
+      2. **Brace**: Core tight, chest up.
+      3. **Dip**: Shallow, controlled dip — knees forward, torso vertical.
+      4. **Drive and Drop**: Explode upward with the legs, then immediately drop under the bar into a full overhead squat.
+      5. **Catch**: Lock elbows, bar stabilized overhead in deep squat.
+      6. **Stand**: Recover from the squat to full extension.
+      7. **Reset**: Control and repeat.
+    tips:
+      - Speed under the bar is king.
+      - Don’t press — punch the bar overhead.
+      - Perfect for lifters struggling with snatch confidence and receiving position.
+      - Start light — mobility and timing matter more than load.
