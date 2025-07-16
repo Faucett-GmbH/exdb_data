@@ -1,0 +1,30 @@
+guid: d9b31f07-9db8-451b-a561-7e7ae61d8d62
+uri: bb_standing_tricep_extension
+execution: WEIGHT_REPS
+image_url: https://raw.githubusercontent.com/Faucett-GmbH/exdb_data/refs/heads/master/data/exercises/images/bb_standing_tricep_extension.png
+thumbnail_image_url: null
+translations:
+  - guid: 1e4fd411-a669-4730-b4db-12f7cf904e71
+    locale: en
+    uri: bb_standing_tricep_extension
+    name: Barbell Standing Tricep Extension
+    alternative_names:
+      - Standing Skull Crusher
+      - Standing French Press
+      - Standing French Extension
+    metadata_keywords: []
+    metadata_authors: []
+    video_url: null
+    description: |
+      The barbell standing tricep extension is a raw, overhead assault on the triceps. You press the bar overhead, then control the descent behind your head before firing it back up. It isolates the triceps with a brutal stretch and forces the long head to work overtime. Get sloppy, and you’ll feel it in your back — stay strict, and your arms grow.
+    summary: |
+      The standing barbell tricep extension trains the triceps by extending the bar overhead from a flexed elbow position, emphasizing the long head of the triceps.
+    instructions: |
+      1. Setup: Stand upright, feet shoulder-width, barbell pressed overhead with a narrow grip.
+      2. Lower: Bend the elbows to lower the bar behind the head, keeping elbows pointing forward.
+      3. Stretch: Lower until the triceps feel fully stretched — just behind the head or neck.
+      4. Extend: Extend the elbows to press the bar back to overhead.
+      5. Lockout: Finish with arms fully extended.
+      6. Repeat: Stay tight throughout.
+    tips:
+      - If your elbows flare, you’re losing triceps tension.

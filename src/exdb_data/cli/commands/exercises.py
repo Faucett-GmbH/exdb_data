@@ -66,18 +66,22 @@ def create_new_exercise_cmd(
 def search_cmd(name: str) -> None:
     v = name.strip().lower()
     exercises = read_all_exercises()
-    filtered = []
-    for ex in exercises:
-        search_values = [ex.uri]
-        for e in ex.translations:
-            search_values.append(e.uri.lower())
-            search_values.append(e.name.lower())
-            for an in e.alternative_names:
-                search_values.append(an.strip().lower())
-        for sv in search_values:
-            if v in sv:
-                filtered.append(ex)
-                break
+
+    if v == "*":
+        filtered = exercises
+    else:
+        filtered = []
+        for ex in exercises:
+            search_values = [ex.uri]
+            for e in ex.translations:
+                search_values.append(e.uri.lower())
+                search_values.append(e.name.lower())
+                for an in e.alternative_names:
+                    search_values.append(an.strip().lower())
+            for sv in search_values:
+                if v in sv:
+                    filtered.append(ex)
+                    break
 
     for ex in filtered:
         console.print(pp_short_exercise(ex))

@@ -1,0 +1,29 @@
+guid: 18678700-4742-479a-89c4-43032078bc4b
+uri: bb_shrug
+execution: WEIGHT_REPS
+image_url: https://raw.githubusercontent.com/Faucett-GmbH/exdb_data/refs/heads/master/data/exercises/images/bb_shrug.png
+thumbnail_image_url: null
+translations:
+  - guid: 81e734c4-71bf-42ad-9fc9-fb9084d5f934
+    locale: en
+    uri: bb_shrug
+    name: Barbell Shrug
+    alternative_names: []
+    metadata_keywords: []
+    metadata_authors: []
+    video_url: null
+    description: |
+      The barbell shrug is simple: pick up a heavy bar and pull your shoulders to your ears. That’s it. But do it right, and you’ll build traps that look like a yoke of oxen lives on your back. No jerking, no rolling — just pure vertical shrugging under load. If your traps don’t ache, the bar wasn’t heavy enough.
+    summary: |
+      The barbell shrug isolates the traps by elevating the shoulders straight up while holding a heavy barbell at arm’s length.
+    instructions: |
+      1. Setup: Stand tall, feet hip-width, barbell in hands with overhand grip, arms extended.
+      2. Brace: Core tight, chest up.
+      3. Shrug: Pull shoulders straight up as high as possible — no rotation.
+      4. Squeeze: Hold the top position briefly, squeezing the traps.
+      5. Lower: Control the descent back to the start.
+      6. Repeat: Keep reps strict and controlled.
+    tips:
+      - Heavy weight is key, but only with control.
+      - Do not roll the shoulders — vertical path only.
+      - Add a pause at the top for maximum trap engagement.

@@ -1,0 +1,29 @@
+guid: 8dc375e5-9ded-42c7-9215-93c34f4cd0a5
+uri: bb_curl
+execution: WEIGHT_REPS
+image_url: https://raw.githubusercontent.com/Faucett-GmbH/exdb_data/refs/heads/master/data/exercises/images/bb_curl.png
+thumbnail_image_url: null
+translations:
+  - guid: be2e856a-1b80-40eb-b6e6-0edec6f8dff2
+    locale: en
+    uri: bb_curl
+    name: Barbell Curl
+    alternative_names: []
+    metadata_keywords: []
+    metadata_authors: []
+    video_url: null
+    description: |
+      The barbell curl is the old-school staple for building big, strong arms. You grab the bar, stand tall, and curl that sucker up like it owes you money. Done right, it isolates the biceps and forearms. Done wrong, it becomes a full-body sway party. Control the bar, own the curl, and make your arms look like you actually lift.
+    summary: |
+      The barbell curl is a classic arm exercise that isolates the biceps by curling a barbell from the thighs to the shoulders.
+    instructions: |
+      1. Setup: Stand upright, feet shoulder-width. Grip the barbell with palms up, shoulder-width apart.
+      2. Brace: Tighten core, keep chest up.
+      3. Curl: Flex at the elbows to bring the bar towards your shoulders. Keep elbows pinned to your sides.
+      4. Squeeze: Contract the biceps hard at the top.
+      5. Lower: Slowly lower the bar back to starting position under control.
+      6. Repeat: Don’t cheat unless you mean to cheat.
+    tips:
+      - Don’t swing. If your hips are helping, your biceps are slacking.
+      - Full range of motion. No half reps unless you're trying to impress nobody.
+      - Add tempo or pauses for variation.

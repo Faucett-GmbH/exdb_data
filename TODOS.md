@@ -25,9 +25,9 @@
 - [X] Snatch Balance
 
 ## 💪 Hypertrophy & Bodybuilding Staples
-- [ ] Barbell Curl
-- [ ] Barbell Skull Crushers
-- [ ] Barbell Shrugs
+- [X] Barbell Curl
+- [X] Barbell Skull Crushers
+- [X] Barbell Shrugs
 - [X] Incline Bench Press
 - [ ] Decline Bench Press
 - [ ] Close-Grip Bench Press
