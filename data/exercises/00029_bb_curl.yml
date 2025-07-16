@@ -8,7 +8,9 @@ translations:
     locale: en
     uri: bb_curl
     name: Barbell Curl
-    alternative_names: []
+    alternative_names:
+      - Straight Bar Curl
+      - Bicep Curl
     metadata_keywords: []
     metadata_authors: []
     video_url: null

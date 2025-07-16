@@ -1,13 +1,13 @@
 guid: 24c37dbf-327f-4563-a597-3a7c41db75ea
-uri: bb_lying_tricep_extension
+uri: bb_lying_triceps_extension
 execution: WEIGHT_REPS
 image_url: null
 thumbnail_image_url: null
 translations:
   - guid: 95bd8fd6-5c53-472b-84af-7ad56cbf1074
     locale: en
-    uri: bb_lying_tricep_extension
-    name: Barbell Lying Tricep Extension
+    uri: bb_lying_triceps_extension
+    name: Barbell Lying Triceps Extension
     alternative_names:
       - Lying Skull Crusher
       - Lying French Press
@@ -16,9 +16,9 @@ translations:
     metadata_authors: []
     video_url: null
     description: |
-      The lying tricep extension is the triceps’ version of an ambush — controlled descent to your forehead, then a violent extension back to lockout. It’s a simple, savage way to forge triceps that don’t quit. Whether you want a bigger bench or just want to fill out your sleeves, this is the direct hit your arms need. Control the eccentric, own the concentric, and don’t crush your skull.
+      The lying triceps extension is the triceps’ version of an ambush — controlled descent to your forehead, then a violent extension back to lockout. It’s a simple, savage way to forge triceps that don’t quit. Whether you want a bigger bench or just want to fill out your sleeves, this is the direct hit your arms need. Control the eccentric, own the concentric, and don’t crush your skull.
     summary: |
-      The barbell lying tricep extension, or skull crusher, isolates the triceps by extending the arms while lying on a bench, driving the bar from forehead to lockout.
+      The barbell lying triceps extension, or skull crusher, isolates the triceps by extending the arms while lying on a bench, driving the bar from forehead to lockout.
     instructions: |
       1. Setup: Lie on a flat bench. Grip the barbell with hands shoulder-width, arms extended over chest.
       2. Lower: Bend elbows to lower the bar to just above the forehead or hairline. Keep upper arms fixed.
