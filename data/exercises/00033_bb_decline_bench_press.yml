@@ -1,0 +1,30 @@
+guid: 61ac19c1-6206-4662-b911-138ba32dcfef
+uri: bb_decline_bench_press
+execution: WEIGHT_REPS
+image_url: null
+thumbnail_image_url: null
+translations:
+  - guid: baed43e4-d505-4c0b-b5c5-d090e29ae775
+    locale: en
+    uri: bb_decline_bench_press
+    name: Barbell Decline Bench Press
+    alternative_names: []
+    metadata_keywords: []
+    metadata_authors: []
+    video_url: null
+    description: |
+      The decline bench press is the overlooked cousin of the flat and incline press. It shifts emphasis to the lower pecs while reducing strain on the shoulders. By locking yourself into the decline, you force the chest to do the heavy lifting. It’s a press — but steeper and meaner. If your chest is stubborn, this is the artillery.
+    summary: |
+      The barbell decline bench press targets the lower chest by pressing a barbell from a declined bench position, reducing shoulder involvement.
+    instructions: |
+      1. Setup: Lie on a decline bench, feet secured. Grip the bar just outside shoulder-width.
+      2. Unrack: Lift the bar off the rack and hold it over your chest.
+      3. Lower: Lower the bar to the lower chest/upper abdomen with control.
+      4. Press: Drive the bar back up to full arm extension.
+      5. Lockout: Stabilize at the top before the next rep.
+      6. Repeat: Maintain tightness and bar path each rep.
+    tips:
+      - Use a spotter— reracking can be awkward and dangerous.
+      - Control the descent — don’t let the bar crash down.
+      - Great for lifters with shoulder pain on flat bench.
+      - Avoid excessive arching — the decline handles the angle.

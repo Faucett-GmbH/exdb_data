@@ -1,0 +1,29 @@
+guid: 3c336cc6-043f-40be-889f-fd2e49446e51
+uri: bb_upright_row
+execution: WEIGHT_REPS
+image_url: https://raw.githubusercontent.com/Faucett-GmbH/exdb_data/refs/heads/master/data/exercises/images/bb_upright_row.png
+thumbnail_image_url: null
+translations:
+  - guid: d53bb89a-5ea0-420e-81a9-337930cc9208
+    locale: en
+    uri: bb_upright_row
+    name: Barbell Upright Row
+    alternative_names: []
+    metadata_keywords: []
+    metadata_authors: []
+    video_url: null
+    description: |
+      The upright row is a vertical pull that thickens the traps and widens the shoulders. Grab the bar, pull it to your clavicle, and lead with the elbows like you’re trying to elbow someone behind you. It’s brutal for the upper back but demands respect — sloppy form and it’ll chew up your shoulders. Master the line of pull, and you’ll build a set of yoke-worthy traps.
+    summary: |
+      The barbell upright row targets the traps, deltoids, and upper back by pulling the bar vertically from the hips to chest height with elbows leading.
+    instructions: |
+      1. Setup: Stand tall, feet shoulder-width, barbell held with a narrow to moderate grip.
+      2. Brace: Tighten the core, keep the bar close to the body.
+      3. Pull: Lead with the elbows to pull the bar up to the upper chest or clavicle.
+      4. Peak: Elbows should stay higher than the wrists at the top.
+      5. Lower: Control the bar back down to the start.
+      6. Repeat: Smooth, controlled reps.
+    tips:
+      - Don’t over-grip narrow — keep it just inside shoulder-width.
+      - Stop if you feel shoulder pain — not every lifter tolerates this movement.
+      - Focus on elbow path, not just bar height.

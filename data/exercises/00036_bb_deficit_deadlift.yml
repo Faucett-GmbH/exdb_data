@@ -1,0 +1,30 @@
+guid: 2b8ed4bb-a99b-4329-ac00-5ea9edab2729
+uri: bb_deficit_deadlift
+execution: WEIGHT_REPS
+image_url: https://raw.githubusercontent.com/Faucett-GmbH/exdb_data/refs/heads/master/data/exercises/images/bb_deficit_deadlift.png
+thumbnail_image_url: null
+translations:
+  - guid: b7ba5cfa-0cc8-433c-b4f1-ed044ad9b6ad
+    locale: en
+    uri: bb_deficit_deadlift
+    name: Barbell Deficit Deadlift
+    alternative_names: []
+    metadata_keywords: []
+    metadata_authors: []
+    video_url: null
+    description: |
+      The deficit deadlift is a brutal, no-excuses variation designed to crush weakness off the floor. Standing on a platform or plate, you lengthen the pull, forcing more leg drive, posterior chain engagement, and grit. The bar feels farther away — because it is. If your deadlift stalls off the ground, this is your medicine. Don’t cheat the depth. Don’t round the back - pull straight through.
+    summary: |
+      The barbell deficit deadlift increases range of motion and builds off-the-floor strength by deadlifting while standing on an elevated surface.
+    instructions: |
+      1. Setup: Stand on a platform 1–3 inches tall. Feet hip-width, bar over midfoot, grip just outside knees.
+      2. Brace: Engage the core, pull the slack out of the bar.
+      3. Pull: Push through the floor, keeping hips and chest rising together.
+      4. Lockout: Stand tall at the top — hips through, shoulders back.
+      5. Lower: Control the descent to the floor.
+      6. Repeat: Maintain tightness each rep.
+    tips:
+      - Start with a small deficit (1 inch) before going higher.
+      - Don’t sacrifice back position for depth.
+      - Great for building quad strength and improving start position.
+      - Use straps if grip fails — this is a strength builder, not a grip test.

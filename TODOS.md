@@ -29,14 +29,14 @@
 - [X] Barbell Skull Crushers
 - [X] Barbell Shrugs
 - [X] Incline Bench Press
-- [ ] Decline Bench Press
-- [ ] Close-Grip Bench Press
-- [ ] Barbell Upright Row
+- [X] Decline Bench Press
+- [X] Close-Grip Bench Press
+- [X] Barbell Upright Row
 
 ## 🦵 Lower Body Variations
 - [X] Romanian Deadlift (RDL)
 - [X] Stiff-Leg Deadlift
-- [ ] Deficit Deadlift
+- [X] Deficit Deadlift
 - [ ] Rack Pull
 - [X] Pause Squat
 - [ ] Tempo Squat
