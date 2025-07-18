@@ -37,11 +37,10 @@
 - [X] Romanian Deadlift (RDL)
 - [X] Stiff-Leg Deadlift
 - [X] Deficit Deadlift
-- [ ] Rack Pull
+- [X] Rack Pull
 - [X] Pause Squat
-- [ ] Tempo Squat
-- [ ] Box Squat
-- [ ] Hack Squat (Barbell)
+- [X] Box Squat
+- [X] Hack Squat (Barbell)
 - [ ] Zercher Squat
 - [ ] Barbell Step-Up
 - [ ] Barbell Walking Lunge

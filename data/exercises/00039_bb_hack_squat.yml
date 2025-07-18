@@ -1,0 +1,31 @@
+guid: 5518ddf2-5b00-448d-b4da-993624290f42
+uri: bb_hack_squat
+execution: WEIGHT_REPS
+image_url: https://raw.githubusercontent.com/Faucett-GmbH/exdb_data/refs/heads/master/data/exercises/images/bb_hack_squat.png
+thumbnail_image_url: null
+translations:
+  - guid: 9b495733-b460-4017-916b-8d28629149e4
+    locale: en
+    uri: bb_hack_squat
+    name: Barbell Hack Squat
+    alternative_names:
+      - Hackenschmidt Squat
+      - Rear Deadlift
+    metadata_keywords: []
+    metadata_authors: []
+    video_url: null
+    description: |
+      The barbell hack squat flips the deadlift on its head. With the bar behind you, the movement hammers the quads while still loading the glutes and hamstrings. It’s awkward, old-school, and effective. This is the barbell version of a machine hack squat — minus the comfort. Pull it clean, stay upright, and your quads will hate you for days.
+    summary: |
+      The barbell hack squat is a quad-dominant deadlift variation where the barbell is held behind the legs and pulled from the floor to a standing position.
+    instructions: |
+      1. Setup: Barbell behind your legs, feet hip-width, hands gripping bar just outside hips.
+      2. Brace: Chest up, back flat, core tight.
+      3. Pull: Stand up by driving through the heels, keeping the torso upright.
+      4. Lockout: Finish tall with hips through and knees extended.
+      5. Lower: Lower the bar under control to the floor.
+      6. Repeat: Maintain tight form every rep.
+    tips:
+      - Keep the bar close to the body — let it graze the hamstrings.
+      - Heels flat — any heel lift ruins quad engagement.
+      - Start light; the bar path feels weird until you learn it well.

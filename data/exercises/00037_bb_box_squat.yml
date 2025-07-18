@@ -1,0 +1,28 @@
+guid: 78e2169e-b145-4696-baf2-b47869c25181
+uri: bb_box_squat
+execution: WEIGHT_REPS
+image_url: https://raw.githubusercontent.com/Faucett-GmbH/exdb_data/refs/heads/master/data/exercises/images/bb_box_squat.png
+thumbnail_image_url: null
+translations:
+  - guid: e36531e9-3859-425c-b896-962aca3314db
+    locale: en
+    uri: bb_box_squat
+    name: Barbell Box Squat
+    alternative_names: []
+    metadata_keywords: []
+    metadata_authors: []
+    video_url: null
+    description: |
+      The box squat is a controlled, deliberate assault on bad squatting. You squat back — not down — touch the box with tension, then explode up. It teaches hip drive, breaks the stretch reflex, and builds confidence under heavy loads. Done right, it forces you to squat with intent. Done wrong, it’s just sitting down and standing up. Control the descent. Own the reversal. Make your glutes earn it.
+    summary: |
+      The barbell box squat builds squat strength and power by sitting back onto a box before driving up, reinforcing posterior chain engagement and proper depth.
+    instructions: |
+      1. Setup: Set a box slightly below parallel. Barbell on traps or rear delts. Feet wider than shoulder-width.
+      2. Brace: Big breath, tight core, chest up.
+      3. Descend: Sit back—not down—pushing hips behind you. Shins vertical.
+      4. Box Touch: Pause briefly on the box without relaxing — stay tight.
+      5. Ascent: Drive through the heels and hips to stand tall.
+      6. Repeat: Reset and keep reps tight and consistent.
+    tips:
+      - Don’t crash onto the box — control the descent.
+      - Don’t rock forward to stand — stay vertical and tight.
