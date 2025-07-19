@@ -41,11 +41,11 @@
 - [X] Pause Squat
 - [X] Box Squat
 - [X] Hack Squat (Barbell)
-- [ ] Zercher Squat
-- [ ] Barbell Step-Up
+- [X] Zercher Squat
+- [X] Barbell Step-Up
 - [ ] Barbell Walking Lunge
 - [X] Barbell Lunge
-- [ ] Barbell Bulgarian Split Squat
+- [X] Barbell Bulgarian Split Squat
 - [ ] Barbell Hip Thrust
 - [ ] Barbell Glute Bridge
 - [ ] Jefferson Deadlift

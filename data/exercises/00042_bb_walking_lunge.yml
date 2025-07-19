@@ -1,0 +1,30 @@
+guid: bba4c4a3-7d32-4b6e-b6b7-0a94270da5f2
+uri: bb_walking_lunge
+execution: WEIGHT_REPS
+image_url: https://raw.githubusercontent.com/Faucett-GmbH/exdb_data/refs/heads/master/data/exercises/images/bb_walking_lunge.png
+thumbnail_image_url: null
+translations:
+  - guid: 699a2242-97d5-4bed-bf4f-ea5adac85713
+    locale: en
+    uri: bb_walking_lunge
+    name: Barbell Walking Lunge
+    alternative_names: []
+    metadata_keywords: []
+    metadata_authors: []
+    video_url: null
+    description: |
+      The walking lunge with a barbell is a punishing test of leg strength, coordination, and endurance. You carry the bar on your back and stride forward, one deep lunge at a time. Every step forces the quads, glutes, and hamstrings to work overtime while your core stabilizes the load. It’s not just a leg builder — it’s a humility builder. If your legs don’t burn, you’re not going deep enough.
+    summary: |
+      The barbell walking lunge is a dynamic, unilateral leg exercise where you lunge forward step by step with a barbell on your back, challenging the quads, glutes, and balance.
+    instructions: |
+      1. Setup: Barbell on the back rack position. Stand tall, feet together.
+      2. Step: Take a long step forward with one leg.
+      3. Descend: Lower your back knee close to the ground, front thigh parallel.
+      4. Drive: Push through the front foot to bring the back foot forward into the next lunge.
+      5. Repeat: Continue alternating legs for reps or distance.
+      6. Maintain Form: Keep torso upright, core tight.
+    tips:
+      - Don’t rush — control every step.
+      - Focus on depth — back knee should nearly kiss the floor.
+      - Use lighter weight than squats — the balance challenge is real.
+      - Solid for hypertrophy or athletic conditioning.

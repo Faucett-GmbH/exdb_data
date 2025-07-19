@@ -1,0 +1,30 @@
+guid: 1262c7ed-4bf3-47df-8918-d8c79d3657bf
+uri: bb_step_up
+execution: WEIGHT_REPS
+image_url: https://raw.githubusercontent.com/Faucett-GmbH/exdb_data/refs/heads/master/data/exercises/images/bb_step_up.png
+thumbnail_image_url: null
+translations:
+  - guid: 4d2b395b-d0e2-4e59-8090-3c3e2ab1f914
+    locale: en
+    uri: bb_step_up
+    name: Barbell Step-Up
+    alternative_names: []
+    metadata_keywords: []
+    metadata_authors: []
+    video_url: null
+    description: |
+      The step-up is where simplicity meets brutality. Load a bar, pick a box, and step up like you’re climbing a mountain with weights on your back. It builds single-leg strength, exposes imbalances, and forces the glutes and quads to do real work. No momentum, no hop — just raw drive through the lead leg. If your balance sucks or your glutes are asleep, this fixes both.
+    summary: |
+      The barbell step-up is a unilateral leg exercise where you step onto a raised platform with a barbell on your back, targeting quads, glutes, and balance.
+    instructions: |
+      1. Setup: Barbell on your traps or rear delts. Stand facing a box or platform at knee height.
+      2. Brace: Core tight, chest up.
+      3. Step: Plant one foot on the box, push through the heel to drive up.
+      4. Top Position: Stand fully on the box — hips and knees extended.
+      5. Descent: Step down under control with the same leg or alternate.
+      6. Repeat: Complete reps on one side before switching.
+    tips:
+      - No bouncing — drive through the lead leg only.
+      - Keep torso upright to engage the glutes.
+      - Start with bodyweight or dumbbells before loading a barbell.
+      - Great for athletes needing unilateral strength and stability.
