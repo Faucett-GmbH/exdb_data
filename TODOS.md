@@ -43,12 +43,12 @@
 - [X] Hack Squat (Barbell)
 - [X] Zercher Squat
 - [X] Barbell Step-Up
-- [ ] Barbell Walking Lunge
+- [X] Barbell Walking Lunge
 - [X] Barbell Lunge
 - [X] Barbell Bulgarian Split Squat
-- [ ] Barbell Hip Thrust
-- [ ] Barbell Glute Bridge
-- [ ] Jefferson Deadlift
+- [X] Barbell Hip Thrust
+- [X] Barbell Glute Bridge
+- [X] Jefferson Deadlift
 
 ## 💪 Upper Body Variations
 - [ ] Seated Overhead Press
