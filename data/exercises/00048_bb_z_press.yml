@@ -1,0 +1,27 @@
+guid: cc5d9c4b-d1a9-4b56-ac8b-bebcce9fa2c6
+uri: bb_z_press
+execution: WEIGHT_REPS
+image_url: https://raw.githubusercontent.com/Faucett-GmbH/exdb_data/refs/heads/master/data/exercises/images/bb_z_press.png
+thumbnail_image_url: null
+translations:
+  - guid: 01948a0e-efb5-403d-bd69-7d7705280cff
+    locale: en
+    uri: bb_z_press
+    name: Barbell Z Press
+    alternative_names: []
+    metadata_keywords: []
+    metadata_authors: []
+    video_url: null
+    description: |
+      The Z Press is the overhead press with zero support and zero excuses. Sitting on the floor with legs outstretched, you press the bar overhead — no backrest, no leg drive, no momentum. It’s brutal for the shoulders, unforgiving for the core, and honest about your true pressing strength. If you lean back or get lazy, you’ll tip over. That’s the Z Press — pure, strict, and raw.
+    summary: |
+      The barbell Z Press is a strict overhead press performed while seated on the floor with legs extended, emphasizing shoulders, triceps, and core stability.
+    instructions: |
+      1. Setup: Sit on the floor with legs extended. Barbell in front rack position, grip just outside shoulders.
+      2. Brace: Engage the core, sit tall, feet flexed.
+      3. Press: Press the bar vertically overhead, keeping the torso upright.
+      4. Lockout: Fully extend arms, bar over shoulders.
+      5. Lower: Return the bar under control to the front rack.
+      6. Repeat: Maintain posture and tightness every rep.
+    tips:
+      - Core must stay engaged — don’t lean back.

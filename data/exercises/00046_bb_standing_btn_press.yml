@@ -1,0 +1,29 @@
+guid: 1f816dee-77c5-48c2-ae36-7a47ac09339c
+uri: bb_standing_btn_press
+execution: WEIGHT_REPS
+image_url: https://raw.githubusercontent.com/Faucett-GmbH/exdb_data/refs/heads/master/data/exercises/images/bb_standing_btn_press.png
+thumbnail_image_url: null
+translations:
+  - guid: 28769169-100d-4d5c-849b-6bf9596d86bf
+    locale: en
+    uri: bb_standing_btn_press
+    name: Barbell Standing Behind-the-Neck Press
+    alternative_names:
+      - Standing BtN Press
+      - Standing Behind-the-Neck Military Press
+    metadata_keywords: []
+    metadata_authors: []
+    video_url: null
+    description: |
+      The standing behind-the-neck press is the old-school test of shoulder mobility and raw pressing strength. With the bar racked on the traps, you press it straight overhead while standing tall. It’s strict, unforgiving, and exposes every weakness in shoulder stability and mobility. But done with control, it builds boulder shoulders and an unyielding upper back. No leg drive — just pure press.
+    summary: |
+      The barbell standing behind-the-neck press is a strict overhead press where the bar starts on the upper traps, emphasizing the shoulders and upper back.
+    instructions: |
+      1. Setup: Barbell on upper traps, hands slightly wider than shoulders.
+      2. Brace: Core tight, glutes squeezed, feet hip-width.
+      3. Press: Press the bar straight overhead, keeping it close to the midline.
+      4. Lockout: Fully extend elbows, head through the arms.
+      5. Lower: Return the bar under control to the traps.
+      6. Repeat: Keep reps smooth and strict.
+    tips:
+      - Use light to moderate weight — this is a mobility-dependent lift.

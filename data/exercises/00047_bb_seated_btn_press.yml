@@ -1,0 +1,27 @@
+guid: e0dc9ad0-da92-48e8-a063-b66a65fa8763
+uri: bb_seated_btn_press
+execution: WEIGHT_REPS
+image_url: https://raw.githubusercontent.com/Faucett-GmbH/exdb_data/refs/heads/master/data/exercises/images/bb_seated_btn_press.png
+thumbnail_image_url: null
+translations:
+  - guid: 115134c3-a146-4336-8be2-c1938a9b6b7d
+    locale: en
+    uri: bb_seated_btn_press
+    name: Barbell Seated Behind-the-Neck Press
+    alternative_names: []
+    metadata_keywords: []
+    metadata_authors: []
+    video_url: null
+    description: |
+      The seated behind-the-neck press is a strict upper body builder. Sitting down removes leg drive, leaving the shoulders, triceps, and upper back to move the load. The bar starts behind your head on the traps and finishes locked out overhead. It requires mobility, precision, and grit. Done with control, it thickens shoulders like granite. Done sloppy, it punishes shoulders and neck — don’t be sloppy.
+    summary: |
+      The seated behind-the-neck press isolates the shoulders by pressing a barbell from the traps to overhead while seated, minimizing lower body assistance.
+    instructions: |
+      1. Setup: Sit on a bench with back support. Barbell racked on traps, grip just outside shoulders.
+      2. Brace: Core tight, feet planted.
+      3. Press: Press the bar straight overhead, head moves slightly forward at the top.
+      4. Lockout: Arms fully extended, elbows locked.
+      5. Lower: Bring the bar back to the traps under control.
+      6. Repeat: Smooth, controlled reps throughout.
+    tips:
+      - Keep elbows under wrists — don’t let them flare back.

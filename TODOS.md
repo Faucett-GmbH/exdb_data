@@ -51,9 +51,10 @@
 - [X] Jefferson Deadlift
 
 ## 💪 Upper Body Variations
-- [ ] Seated Overhead Press
-- [ ] Behind-the-Neck Press
-- [ ] Z Press
+- [X] Seated Overhead Press
+- [X] Standing Behind-the-Neck Press
+- [X] Seated Behind-the-Neck Press
+- [X] Z Press
 - [ ] Landmine Press (with barbell)
 - [ ] Pendlay Row
 - [ ] Seal Row

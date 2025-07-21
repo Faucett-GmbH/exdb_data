@@ -1,5 +1,8 @@
+from xml.dom import ValidationErr
 import click
 import uuid
+
+from pydantic import ValidationError
 
 from exdb_data.schemas import ExecutionType, ExecutionTypeChoices
 from exdb_data.services import (
@@ -65,7 +68,11 @@ def create_new_exercise_cmd(
 @click.argument("name")
 def search_cmd(name: str) -> None:
     v = name.strip().lower()
-    exercises = read_all_exercises()
+    try:
+        exercises = read_all_exercises()
+    except ValidationError as error:
+        console.print(error)
+        return
 
     if v == "*":
         filtered = exercises
