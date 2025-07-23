@@ -58,8 +58,8 @@
 - [X] Landmine Press (with barbell)
 - [X] Pendlay Row
 - [X] Seal Row
-- [ ] T-Bar Row (Barbell in Landmine Setup)
-- [ ] Barbell Pullovers
+- [X] T-Bar Row (Barbell in Landmine Setup)
+- [X] Barbell Pullovers
 
 ## 🏋️ Strongman & Specialty Movements
 - [ ] Barbell Clean & Press
