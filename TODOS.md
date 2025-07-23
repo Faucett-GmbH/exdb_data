@@ -55,9 +55,9 @@
 - [X] Standing Behind-the-Neck Press
 - [X] Seated Behind-the-Neck Press
 - [X] Z Press
-- [ ] Landmine Press (with barbell)
-- [ ] Pendlay Row
-- [ ] Seal Row
+- [X] Landmine Press (with barbell)
+- [X] Pendlay Row
+- [X] Seal Row
 - [ ] T-Bar Row (Barbell in Landmine Setup)
 - [ ] Barbell Pullovers
 
