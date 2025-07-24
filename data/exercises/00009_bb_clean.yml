@@ -1,12 +1,12 @@
 ---
-uri: clean
+uri: bb_clean
 guid: 55944a3b-ac31-4048-858b-834d2e100fe2
 image_url: null
 thumbnail_image_url: null
 execution: WEIGHT_REPS
 translations:
   - name: Clean
-    uri: clean
+    uri: bb_clean
     guid: 0eb86d60-619a-4718-8428-ad91d5b7bfe4
     locale: en
     alternative_names: []

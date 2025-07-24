@@ -62,10 +62,9 @@
 - [X] Barbell Pullovers
 
 ## 🏋️ Strongman & Specialty Movements
-- [ ] Barbell Clean & Press
-- [ ] Barbell Continental Clean
-- [ ] Barbell Ground-to-Overhead
-- [ ] Barbell Suitcase Deadlift
+- [X] Barbell Clean & Press
+- [X] Barbell Continental Clean & Press
+- [X] Barbell Suitcase Deadlift
 - [ ] Barbell Zercher Carry
 - [ ] Barbell Overhead Carry
 - [ ] Barbell Row to Hip (Explosive)
