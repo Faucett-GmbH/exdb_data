@@ -1,12 +1,12 @@
 ---
-uri: high_bar_squat
+uri: bb_high_bar_squat
 guid: 0258b3f2-0e93-445e-85fc-6bc545006d29
 image_url: https://raw.githubusercontent.com/Faucett-GmbH/exdb_data/refs/heads/master/data/exercises/images/high_bar_squat.webp
 thumbnail_image_url: https://raw.githubusercontent.com/Faucett-GmbH/exdb_data/refs/heads/master/data/exercises/images/high_bar_squat_200x200.webp
 execution: WEIGHT_REPS
 translations:
-  - name: High Bar Barbell Squat
-    uri: high-bar-barbell-squat
+  - name: Barbell High Bar Squat
+    uri: bb-high-bar-squat
     guid: eaa61dc6-5a2c-40ce-9f23-4451577dc3ba
     locale: en
     alternative_names:

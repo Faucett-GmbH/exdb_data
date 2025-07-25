@@ -1,85 +1,43 @@
-# ✅ Barbell Exercise List
+# TODOS
 
-## 🧱 Foundational Compound Lifts
-- [X] Back Squat
-- [X] Front Squat
-- [X] Deadlift (Conventional)
-- [X] Deadlift (Sumo)
-- [X] Bench Press (Flat)
-- [X] Standing Overhead Press (Strict Press)
-- [X] Barbell Row (Bent-Over Row)
-- [X] Push Press
-- [X] Power Clean
-- [X] Power Snatch
+---
 
-## 🥇 Olympic Weightlifting Lifts & Variations
-- [X] Snatch (Full)
-- [X] Clean (Full)
-- [X] Split Jerk
-- [X] Clean & Jerk
-- [X] Hang Snatch
-- [X] Hang Clean
-- [X] Snatch Pull
-- [X] Clean Pull
-- [X] Overhead Squat
-- [X] Snatch Balance
+### ✅ **Additional Hypertrophy/Bodybuilding Movements**
 
-## 💪 Hypertrophy & Bodybuilding Staples
-- [X] Barbell Curl
-- [X] Barbell Skull Crushers
-- [X] Barbell Shrugs
-- [X] Incline Bench Press
-- [X] Decline Bench Press
-- [X] Close-Grip Bench Press
-- [X] Barbell Upright Row
+* [ ] **Barbell Drag Curl** — Variation of the barbell curl that targets biceps
+* [ ] **Barbell Spider Curl** — Biceps isolation on an incline
+* [ ] **Barbell Preacher Curl** — Seated, guided curl for biceps
+* [ ] **Barbell Wrist Curl** — Forearm flexor development
+* [ ] **Barbell Reverse Wrist Curl** — Forearm extensor development
+* [ ] **Barbell Reverse Curl** — Targets brachialis and forearms
+* [ ] **Barbell Incline Bench Row** — For strict upper back isolation
 
-## 🦵 Lower Body Variations
-- [X] Romanian Deadlift (RDL)
-- [X] Stiff-Leg Deadlift
-- [X] Deficit Deadlift
-- [X] Rack Pull
-- [X] Pause Squat
-- [X] Box Squat
-- [X] Hack Squat (Barbell)
-- [X] Zercher Squat
-- [X] Barbell Step-Up
-- [X] Barbell Walking Lunge
-- [X] Barbell Lunge
-- [X] Barbell Bulgarian Split Squat
-- [X] Barbell Hip Thrust
-- [X] Barbell Glute Bridge
-- [X] Jefferson Deadlift
+---
 
-## 💪 Upper Body Variations
-- [X] Seated Overhead Press
-- [X] Standing Behind-the-Neck Press
-- [X] Seated Behind-the-Neck Press
-- [X] Z Press
-- [X] Landmine Press (with barbell)
-- [X] Pendlay Row
-- [X] Seal Row
-- [X] T-Bar Row (Barbell in Landmine Setup)
-- [X] Barbell Pullovers
+### ✅ **Missing Lower Body or Posterior Chain Variants**
 
-## 🏋️ Strongman & Specialty Movements
-- [X] Barbell Clean & Press
-- [X] Barbell Continental Clean & Press
-- [X] Barbell Suitcase Deadlift
-- [ ] Barbell Zercher Carry
-- [ ] Barbell Overhead Carry
-- [ ] Barbell Row to Hip (Explosive)
+* [ ] **Good Morning** — Posterior chain builder, hip hinge emphasis
+* [ ] **Barbell Hip Hinge (Straight-Leg)** — Hinge without knee flexion
+* [ ] **Kang Squat** — Combines good morning and squat; mobility + strength
+* [ ] **Barbell Sissy Squat** — Emphasizes quads; uncommon but effective
+* [ ] **Barbell Split Squat** — Stationary version of the lunge
 
-## 🔁 Rotational / Landmine Variations
-- [ ] Landmine Row
-- [ ] Landmine Twist
-- [ ] Landmine Squat
-- [ ] Landmine Thruster
-- [ ] Landmine Deadlift
+---
 
-## 🧠 Control, Paused, and Isometric Variants
-- [ ] Paused Deadlift
-- [ ] Paused Bench Press
-- [ ] Isometric Mid-Pull (Olympic Lifts)
-- [ ] Tempo Deadlift
-- [ ] 1 ¼ Squat (Barbell)
+### ✅ **Other Landmine Barbell Variations**
 
+* [ ] **Landmine Squat**
+* [ ] **Landmine Row**
+* [ ] **Landmine Rotation (Core twist)**
+
+---
+
+### ✅ **Strongman / Power Specialty Movements**
+
+* [ ] **Barbell Overhead Carry**
+* [ ] **Barbell Zercher Carry**
+* [ ] **Barbell Dead Row (Row from Dead Stop)**
+
+---
+
+Would you like a clean updated checklist with checkboxes and all the exercises together?

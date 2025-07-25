@@ -1,0 +1,29 @@
+guid: a7a521b0-e606-4c9a-8ee2-80343cb75842
+uri: bb_floor_press
+execution: WEIGHT_REPS
+image_url: null
+thumbnail_image_url: null
+translations:
+  - guid: 57293807-1b94-4260-aa2d-a7f1d9ab9a23
+    locale: en
+    uri: bb_floor_press
+    name: Barbell Floor Press
+    alternative_names: []
+    metadata_keywords: []
+    metadata_authors: []
+    video_url: null
+    description: |
+      The floor press cuts the fluff and isolates the fight. No bounce, no leg drive — just you, the bar, and raw pressing strength. Lying flat on the floor, the elbows hit the ground before the chest, forcing the triceps to drive the lockout. It spares the shoulders and builds top-end power. Powerlifters love it. Lifters with bad shoulders need it. And if your bench has stalled, it might be the missing link.
+    summary: |
+      The barbell floor press is a partial-range bench press variation performed lying on the floor, emphasizing triceps, lockout strength, and shoulder stability.
+    instructions: |
+      1. Setup: Lie flat on the floor with a barbell racked above. Feet flat or legs extended.
+      2. Grip: Take a shoulder-width grip, same as flat bench.
+      3. Unrack: Lower the bar with control until elbows gently touch the floor.
+      4. Pause: Brief pause on the floor — no bouncing.
+      5. Press: Drive the bar back to full lockout.
+      6. Repeat: Keep form tight, repeat for reps.
+    tips:
+      - Pause on the floor — this is key for eliminating momentum.
+      - Great for lifters with shoulder issues — less range, more control.
+      - Excellent for improving lockout strength in the bench press.
