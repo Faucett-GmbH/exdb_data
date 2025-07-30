@@ -7,8 +7,8 @@
 * [ ] **Barbell Drag Curl** — Variation of the barbell curl that targets biceps
 * [ ] **Barbell Spider Curl** — Biceps isolation on an incline
 * [ ] **Barbell Preacher Curl** — Seated, guided curl for biceps
-* [ ] **Barbell Wrist Curl** — Forearm flexor development
-* [ ] **Barbell Reverse Wrist Curl** — Forearm extensor development
+* [X] **Barbell Wrist Curl** — Forearm flexor development
+* [X] **Barbell Reverse Wrist Curl** — Forearm extensor development
 * [ ] **Barbell Reverse Curl** — Targets brachialis and forearms
 * [ ] **Barbell Incline Bench Row** — For strict upper back isolation
 
@@ -16,7 +16,7 @@
 
 ### ✅ **Missing Lower Body or Posterior Chain Variants**
 
-* [ ] **Good Morning** — Posterior chain builder, hip hinge emphasis
+* [X] **Good Morning** — Posterior chain builder, hip hinge emphasis
 * [ ] **Barbell Hip Hinge (Straight-Leg)** — Hinge without knee flexion
 * [ ] **Kang Squat** — Combines good morning and squat; mobility + strength
 * [ ] **Barbell Sissy Squat** — Emphasizes quads; uncommon but effective
